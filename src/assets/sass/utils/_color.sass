@@ -1,0 +1,11 @@
+@use "sass:map"
+@use "../vars/_colors" as colors
+
+$colors: ("jasmine": colors.$jasmine, "cornsilk": colors.$cornsilk, "gun-metal": colors.$gun-metal, "indigo": colors.$indigo)
+
+@each $name, $color in $colors
+    .bg-#{$name}
+        background-color: $color
+
+    .text-#{$name}
+        color: $color

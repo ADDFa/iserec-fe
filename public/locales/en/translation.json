@@ -1,0 +1,53 @@
+{
+    "home-navbar": {
+        "about-us": "About Us",
+        "structure": "Structure Organisation",
+        "members": "Members",
+        "news": "News",
+        "partners": "Our Partner",
+        "project": "Projects"
+    },
+    "home-carousel": {
+        "launching-desc": "The launching of ISEREC marks collaboration for sustainable energy innovation.",
+        "launching-desc-2": "Involving global institutions, ISEREC fosters cutting-edge photovoltaic technology research.",
+        "mou-desc": "A cross-nation partnership driving innovation and sustainable technology forward."
+    },
+    "about-us": {
+        "about-us": "About Us",
+        "welcome": "Come and Visit Us",
+        "about-us-list": {
+            "background": "Background ISEREC",
+            "objective": "ISEREC Goal"
+        },
+        "background": {
+            "paragraph-1": "The Sustainable Energy Association of Singapore (SEAS) representing the Consortium consisting of EDPR Sunseap, Gurin Energy, and Keppel Infrastructure Holding (Consortium Members) has proposed a development plan for the Riau Green Economic Corridor in letters since 9 November 2022.",
+            "paragraph-2": "Based on this, SEAS, Consortium Members, and the Coordinating Ministry for Maritime Affairs and Investment (Kemenko Marves) have held a series of meetings which were also attended by the Singapore Energy Market Authority (EMA), and one of the Consortium's commitments is to support the Photovoltaic technology Research and Development program ( PV) solar (from cells to modules and systems) as part of an End-to-End commitment.",
+            "paragraph-3": "SEAS, Consortium Members, the Coordinating Ministry for Maritime Affairs and Fisheries, and EMA have agreed that the Solar Energy Research Institute of Singapore (SERIS) at the National University of Singapore (NUS) and the Indonesian Engineers Association (PII) will work together to realize the research and development commitments mentioned above with the aim of carrying out world-class research and development on solar photovoltaic (PV) technology involving local and international institutions, companies and other non-governmental organizations.",
+            "paragraph-4": "ISEREC will collaborate with various research institutions and universities in Indonesia such as the National Research and Innovation Agency (BRIN), University of Indonesia (UI), Bandung Institute of Technology (ITB), Gajah Mada University (UGM), Sepuluh Nopember Institute of Technology (ITS), Indonesian Institute of Technology (ITI), and others to form a collaborative network."
+        },
+        "objective": {
+            "intro": "The following is a list of objectives of the Indonesia Solar Energy Research Center (ISEREC) in accordance with the MOU dated 16 August 2023:",
+            "education": "Education",
+            "education-list": {
+                "a": "Collaborating with various global Universities and Institutions;",
+                "b": "Supporting PhD students and postdoctoral fellows in solar cell technology;",
+                "c": "Student exchange for study;",
+                "d": "Exchange of faculty members for study, research, and participation in educational programs;",
+                "e": "Exchange of academics for lectures, discussions and sharing of experiences;",
+                "f": "Exchange of publications in fields of interest to both universities;",
+                "g": "Collaborative professional development;",
+                "h": "Co-educational programs; And",
+                "i": "Other activities as mutually agreed upon."
+            },
+            "technology": "Technology",
+            "technology-list": {
+                "a": "Developing a highly skilled Indonesian team in solar photovoltaic technology;",
+                "b": "Supporting Indonesian companies in developing manufacturing capabilities."
+            },
+            "advisory": "Advisory",
+            "advisory-list": {
+                "a": "Provide consulting support to companies and institutions based on the above research and development."
+            }
+        }
+    }
+}

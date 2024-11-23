@@ -1,0 +1,53 @@
+{
+    "home-navbar": {
+        "about-us": "Tentang Kami",
+        "structure": "Struktur Organisasi",
+        "members": "Anggota",
+        "news": "Kegiatan",
+        "partners": "Mitra Kami",
+        "project": "Proyek"
+    },
+    "home-carousel": {
+        "launching-desc": "Peluncuran ISEREC menandai kolaborasi inovasi energi berkelanjutan.",
+        "launching-desc-2": "Melibatkan institusi global, ISEREC mendorong penelitian teknologi fotovoltaik terkini.",
+        "mou-desc": "Kemitraan lintas negara untuk mendorong inovasi dan teknologi berkelanjutan."
+    },
+    "about-us": {
+        "about-us": "Tentang Kami",
+        "welcome": "Datang dan Kunjungi Kami",
+        "about-us-list": {
+            "background": "Latar Belakang ISEREC",
+            "objective": "Tujuan ISEREC"
+        },
+        "background": {
+            "paragraph-1": "Sustainable Energy Association of Singapore (SEAS) yang mewakili Konsorsium yang terdiri dari EDPR Sunseap, Gurin Energy, dan Keppel Infrastructure Holding (Anggota Konsorsium) telah mengusulkan rencana pengembangan Riau Green Economic Corridor dalam surat-surat sejak 9 November 2022.",
+            "paragraph-2": "Berdasarkan hal tersebut, SEAS, Anggota Konsorsium, dan Kementerian Koordinator Bidang Kemaritiman dan Investasi (Kemenko Marves) telah mengadakan serangkaian pertemuan yang juga dihadiri oleh Energy Market Authority (EMA) Singapur, dan salah satu komitmen Konsorsium adalah mendukung program Penelitian dan Pengembangan teknologi photovoltaic (PV) surya (dari sel hingga modul dan sistem) sebagai bagian dari komitmen End-to-End.",
+            "paragraph-3": "SEAS, Anggota Konsorsium, Kemenko Marves, dan EMA telah sepakat bahwa Solar Energy Research Institute of Singapore (SERIS) di National University of Singapore (NUS) dan Persatuan Insinyur Indonesia (PII) akan bekerja sama untuk mewujudkan komitmen penelitian dan pengembangan yang disebutkan di atas dengan tujuan menyelenggarakan penelitian dan pengembangan kelas dunia pada teknologi photovoltaic (PV) surya yang melibatkan institusi lokal dan internasional, perusahaan, serta organisasi non-pemerintah lainnya.",
+            "paragraph-4": "ISEREC akan bekerja sama dengan berbagai lembaga penelitian dan universitas di Indonesia seperti Badan Riset dan Inovasi Nasional (BRIN), Universitas Indonesia (UI), Institut Teknologi Bandung (ITB), Universitas Gajah Mada (UGM), Institut Teknologi Sepuluh Nopember (ITS), Institut Teknologi Indonesia (ITI), dan lainnya untuk membentuk jaringan kolaboratif."
+        },
+        "objective": {
+            "intro": "Berikut adalah daftar tujuan dari Indonesia Solar Energy Research Centre (ISEREC) sesuai dengan MOU tertanggal 16 Agustus 2023:",
+            "education": "Pendidikan",
+            "education-list": {
+                "a": "Bekerja sama dengan berbagai Universitas dan Institusi global;",
+                "b": "Mendukung mahasiswa PhD dan pascadoktoral dalam teknologi sel surya;",
+                "c": "Pertukaran mahasiswa untuk belajar;",
+                "d": "Pertukaran anggota fakultas untuk belajar, penelitian, dan partisipasi dalam program pendidikan;",
+                "e": "Pertukaran akademisi untuk ceramah, diskusi, dan berbagi pengalaman;",
+                "f": "Pertukaran publikasi dalam bidang yang menjadi minat kedua universitas;",
+                "g": "Pengembangan profesional kolaboratif;",
+                "h": "Program pendidikan bersama; dan",
+                "i": "Kegiatan lainnya yang disepakati bersama."
+            },
+            "technology": "Teknologi",
+            "technology-list": {
+                "a": "Mengembangkan tim Indonesia yang sangat terampil dalam teknologi fotovoltaik surya;",
+                "b": "Mendukung perusahaan Indonesia dalam mengembangkan kemampuan manufaktur."
+            },
+            "advisory": "Advisory",
+            "advisory-list": {
+                "a": "Memberikan dukungan konsultasi kepada perusahaan dan institusi berdasarkan penelitian dan pengembangan di atas."
+            }
+        }
+    }
+}
