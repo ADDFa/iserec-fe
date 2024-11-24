@@ -3,9 +3,10 @@
         "about-us": "About Us",
         "structure": "Structure Organisation",
         "members": "Members",
-        "news": "News",
+        "program": "Program",
         "partners": "Our Partner",
-        "project": "Projects"
+        "project": "Projects",
+        "working-group": "Working Group"
     },
     "home-carousel": {
         "launching-desc": "The launching of ISEREC marks collaboration for sustainable energy innovation.",
@@ -49,5 +50,33 @@
                 "a": "Provide consulting support to companies and institutions based on the above research and development."
             }
         }
-    }
+    },
+    "organization": "Organisation Structure",
+    "organization-structure": {
+        "board-of-advisor": "Board Of Advisor",
+        "co-chairs": "CO-Chairs",
+        "co-ceo": "CO-CEO"
+    },
+    "working-group":"Working Group",
+    "working-group-desc": "The Indonesian Solar Energy Research Center (ISEREC) is designed to be the spearhead in research, development and implementation of cutting-edge solar energy solutions. At the heart of ISEREC's mission are six Working Groups each dedicated to advancing important aspects of solar energy technology and its ecosystem.",
+    "working-group-intro": "There is a working group consisting of 6 WGs:",
+    "program-and-news": "Program and News",
+    "program": {
+        "p-1": "ISEREC is designed as a center of excellence for the research, development, and implementation of cutting-edge solar energy solutions. One of its main focuses is education, where ISEREC collaborates with global universities and institutions to support PhD and postdoctoral students and organize academic exchange programs. Additionally, ISEREC develops joint education programs and professional development activities aimed at enhancing human resources in the solar energy sector.",
+        "p-2": "In the field of technology, ISEREC is committed to developing Indonesian expertise in photovoltaic solar technology while supporting local companies in enhancing their manufacturing capabilities. Through this approach, ISEREC aims to strengthen the solar energy technology ecosystem in Indonesia, positioning it as a driver of the green economy at both national and international levels.",
+        "p-3": "ISEREC also provides consulting services based on research and development, assisting companies and institutions in optimizing the application of solar energy technologies. To realize its vision, ISEREC has established six Working Groups focusing on Solar Panel Technology, Manufacture, Urban PV Implementation, PLTS System, Human Development, and Standardization. This holistic approach is expected to create an integrated and sustainable solar energy ecosystem."
+    },
+    "news": {
+        "news-1": {
+            "title": "MoU PII with CTIS",
+            "date": "Nov 15 2024"
+        },
+        "news-2": {
+            "title": "ISEREC Inauguration",
+            "date": "Okt 02 2024"
+        }
+    },
+    "contact": "Contact",
+    "visit-us": "Visit Us",
+    "documentation": "Documentary"
 }

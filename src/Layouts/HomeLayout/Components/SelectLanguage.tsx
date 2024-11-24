@@ -7,10 +7,10 @@ const SelectLanguage = () => {
     const { i18n } = useTranslation()
 
     return (
-        <Dropdown drop="start">
+        <Dropdown align="end">
             <Dropdown.Toggle
                 id="lang-select"
-                className="d-flex align-items-center gap-1"
+                className="d-flex align-items-center gap-1 w-100"
                 variant="indigo"
             >
                 <FontAwesomeIcon icon={faLanguage} />

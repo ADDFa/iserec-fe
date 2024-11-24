@@ -1,24 +1,18 @@
-import Navbar from "Components/Navbar"
-import { Fragment } from "react"
+import { Fragment } from "react/jsx-runtime"
 import HomeComponent from "Pages/Home/Home"
 import AboutUs from "Pages/Home/AboutUs"
 import Organization from "Pages/Home/Organization"
-import Members from "Pages/Home/Members"
-import News from "Pages/Home/News"
-import Partners from "Pages/Home/Partners"
-import Projects from "Pages/Home/Projects"
+import WorkingGroup from "Pages/Home/WorkingGroup"
+import Program from "Pages/Home/Program"
 
 const Home = () => {
     return (
         <Fragment>
-            <Navbar />
             <HomeComponent />
             <AboutUs />
             <Organization />
-            <Members />
-            <News />
-            <Partners />
-            <Projects />
+            <WorkingGroup />
+            <Program />
         </Fragment>
     )
 }

@@ -25,7 +25,7 @@ const AboutUs = () => {
     const advisoryList = ["a"]
 
     return (
-        <section id="about-us" className="mt-4 px-3 py-5 bg-cornsilk">
+        <section id="about-us" className="py-5 px-3 bg-cornsilk">
             <Container>
                 <Row xs={1} lg={2}>
                     <Col>
@@ -78,14 +78,14 @@ const AboutUs = () => {
                             {t("about-us.about-us")}
                         </h3>
 
-                        <Accordion className="mt-4">
+                        <Accordion className="mt-4" defaultActiveKey="0">
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>
                                     {t("about-us.about-us-list.background")}
                                 </Accordion.Header>
                                 <Accordion.Body className="text-justify">
                                     {backgroundList.map((indicator) => (
-                                        <p>
+                                        <p key={indicator}>
                                             {t(
                                                 `about-us.background.paragraph-${indicator}`
                                             )}
@@ -115,7 +115,7 @@ const AboutUs = () => {
                                                 <ol type="A">
                                                     {educationList.map(
                                                         (indicator) => (
-                                                            <li>
+                                                            <li key={indicator}>
                                                                 {t(
                                                                     `about-us.objective.education-list.${indicator}`
                                                                 )}
@@ -138,7 +138,7 @@ const AboutUs = () => {
                                                 <ol type="A">
                                                     {technologyList.map(
                                                         (indicator) => (
-                                                            <li>
+                                                            <li key={indicator}>
                                                                 {t(
                                                                     `about-us.objective.technology-list.${indicator}`
                                                                 )}
@@ -161,7 +161,7 @@ const AboutUs = () => {
                                                 <ol type="A">
                                                     {advisoryList.map(
                                                         (indicator) => (
-                                                            <li>
+                                                            <li key={indicator}>
                                                                 {t(
                                                                     `about-us.objective.advisory-list.${indicator}`
                                                                 )}

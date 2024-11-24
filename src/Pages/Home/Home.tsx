@@ -8,7 +8,7 @@ const Home = () => {
     const { t } = useTranslation()
 
     return (
-        <section id="home" className="mt-3 mb-5">
+        <section id="home" className="mt-3">
             <Container>
                 <Carousel fade interval={2000}>
                     <Carousel.Item>
