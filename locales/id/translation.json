@@ -1,0 +1,83 @@
+{
+    "home-navbar": {
+        "about-us": "Tentang Kami",
+        "structure": "Struktur Organisasi",
+        "members": "Anggota",
+        "program": "Program",
+        "partners": "Mitra Kami",
+        "project": "Proyek",
+        "working-group": "Kelompok Kerja"
+    },
+    "home-carousel": {
+        "launching-desc": "Peluncuran ISEREC menandai kolaborasi inovasi energi berkelanjutan.",
+        "launching-desc-2": "Melibatkan institusi global, ISEREC mendorong penelitian teknologi fotovoltaik terkini.",
+        "mou-desc": "Kemitraan lintas negara untuk mendorong inovasi dan teknologi berkelanjutan."
+    },
+    "about-us": {
+        "about-us": "Tentang Kami",
+        "welcome": "Datang dan Kunjungi Kami",
+        "about-us-list": {
+            "background": "Latar Belakang ISEREC",
+            "objective": "Tujuan ISEREC"
+        },
+        "background": {
+            "paragraph-1": "Sustainable Energy Association of Singapore (SEAS) yang mewakili Konsorsium yang terdiri dari EDPR Sunseap, Gurin Energy, dan Keppel Infrastructure Holding (Anggota Konsorsium) telah mengusulkan rencana pengembangan Riau Green Economic Corridor dalam surat-surat sejak 9 November 2022.",
+            "paragraph-2": "Berdasarkan hal tersebut, SEAS, Anggota Konsorsium, dan Kementerian Koordinator Bidang Kemaritiman dan Investasi (Kemenko Marves) telah mengadakan serangkaian pertemuan yang juga dihadiri oleh Energy Market Authority (EMA) Singapur, dan salah satu komitmen Konsorsium adalah mendukung program Penelitian dan Pengembangan teknologi photovoltaic (PV) surya (dari sel hingga modul dan sistem) sebagai bagian dari komitmen End-to-End.",
+            "paragraph-3": "SEAS, Anggota Konsorsium, Kemenko Marves, dan EMA telah sepakat bahwa Solar Energy Research Institute of Singapore (SERIS) di National University of Singapore (NUS) dan Persatuan Insinyur Indonesia (PII) akan bekerja sama untuk mewujudkan komitmen penelitian dan pengembangan yang disebutkan di atas dengan tujuan menyelenggarakan penelitian dan pengembangan kelas dunia pada teknologi photovoltaic (PV) surya yang melibatkan institusi lokal dan internasional, perusahaan, serta organisasi non-pemerintah lainnya.",
+            "paragraph-4": "ISEREC akan bekerja sama dengan berbagai lembaga penelitian dan universitas di Indonesia seperti Badan Riset dan Inovasi Nasional (BRIN), Universitas Indonesia (UI), Institut Teknologi Bandung (ITB), Universitas Gajah Mada (UGM), Institut Teknologi Sepuluh Nopember (ITS), Institut Teknologi Indonesia (ITI), dan lainnya untuk membentuk jaringan kolaboratif."
+        },
+        "objective": {
+            "intro": "Berikut adalah daftar tujuan dari Indonesia Solar Energy Research Centre (ISEREC) sesuai dengan MOU tertanggal 16 Agustus 2023:",
+            "education": "Pendidikan",
+            "education-list": {
+                "a": "Bekerja sama dengan berbagai Universitas dan Institusi global;",
+                "b": "Mendukung mahasiswa PhD dan pascadoktoral dalam teknologi sel surya;",
+                "c": "Pertukaran mahasiswa untuk belajar;",
+                "d": "Pertukaran anggota fakultas untuk belajar, penelitian, dan partisipasi dalam program pendidikan;",
+                "e": "Pertukaran akademisi untuk ceramah, diskusi, dan berbagi pengalaman;",
+                "f": "Pertukaran publikasi dalam bidang yang menjadi minat kedua universitas;",
+                "g": "Pengembangan profesional kolaboratif;",
+                "h": "Program pendidikan bersama; dan",
+                "i": "Kegiatan lainnya yang disepakati bersama."
+            },
+            "technology": "Teknologi",
+            "technology-list": {
+                "a": "Mengembangkan tim Indonesia yang sangat terampil dalam teknologi fotovoltaik surya;",
+                "b": "Mendukung perusahaan Indonesia dalam mengembangkan kemampuan manufaktur."
+            },
+            "advisory": "Advisory",
+            "advisory-list": {
+                "a": "Memberikan dukungan konsultasi kepada perusahaan dan institusi berdasarkan penelitian dan pengembangan di atas."
+            }
+        }
+    },
+    "organization": "Struktur Organisasi",
+    "organization-structure": {
+        "text": "Struktur Organisasi",
+        "board-of-advisor": "Dewan Penasihat",
+        "co-chairs": "Ketua Bersama",
+        "co-ceo": "CO-CEO"
+    },
+    "working-group":"Kelompok Kerja",
+    "working-group-desc": "Indonesian Solar Energy Research Center (ISEREC) dirancang untuk menjadi ujung tombak dalam penelitian, pengembangan, dan implementasi solusi energi surya yang mutakhir. Inti dari misi ISEREC adalah enam Kelompok Kerja (Working Group) yang masing-masing didedikasikan untuk memajukan aspek-aspek penting dari teknologi energi surya dan ekosistemnya.",
+    "working-group-intro": "Terdapat working group yang terdiri dari 6 WG:",
+    "program-and-news": "Program dan Kegiatan Kami",
+    "program": {
+        "p-1": "ISEREC dirancang sebagai pusat unggulan untuk penelitian, pengembangan, dan implementasi solusi energi surya yang mutakhir. Salah satu fokus utamanya adalah bidang pendidikan, di mana ISEREC bekerja sama dengan universitas dan institusi global untuk mendukung mahasiswa PhD, pascadoktoral, serta mengadakan program pertukaran akademik. Selain itu, ISEREC juga mengembangkan program pendidikan bersama dan kegiatan pengembangan profesional yang bertujuan meningkatkan kualitas sumber daya manusia di bidang energi surya.",
+        "p-2": "Dalam aspek teknologi, ISEREC berkomitmen untuk mengembangkan tenaga ahli Indonesia di bidang fotovoltaik surya sekaligus mendukung perusahaan lokal dalam meningkatkan kemampuan manufaktur. Melalui pendekatan ini, ISEREC berupaya memperkuat ekosistem teknologi energi surya di Indonesia, menjadikannya sebagai salah satu motor penggerak ekonomi hijau di tingkat nasional dan internasional.",
+        "p-3": "ISEREC juga menyediakan layanan konsultasi berbasis penelitian dan pengembangan, membantu perusahaan dan institusi dalam menerapkan teknologi energi surya secara optimal. Untuk mewujudkan visi besarnya, ISEREC membentuk enam kelompok kerja (Working Group) yang masing-masing berfokus pada Solar Panel Technology, Manufacture, Urban PV Implementation, PLTS System, Human Development, dan Standardisasi. Pendekatan holistik ini diharapkan dapat menciptakan ekosistem energi surya yang terintegrasi dan berkelanjutan."
+    },
+    "news": {
+        "news-1": {
+            "title": "MoU PII with CTIS",
+            "date": "15 Nov 2024"
+        },
+        "news-2": {
+            "title": "ISEREC Inauguration",
+            "date": "02 Okt 2024"
+        }
+    },
+    "contact": "Hubungi Kami",
+    "visit-us": "Kunjungi Kami",
+    "documentation": "Dokumentasi"
+}
