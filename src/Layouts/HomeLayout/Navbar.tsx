@@ -18,7 +18,7 @@ const Navbar = () => {
         >
             <Container fluid>
                 <a href="/#home" className="navbar-brand">
-                    <img src={logo} alt="ISEREC" width={170} />
+                    <img src={logo} alt="ISEREC" width={240} />
                 </a>
                 <BootstrapNavbar.Toggle aria-controls="homeNavbar" />
                 <BootstrapNavbar.Collapse id="homeNavbar">
