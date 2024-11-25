@@ -21,7 +21,7 @@ const News = () => {
     ]
 
     return (
-        <div>
+        <section id="news">
             <List
                 size="large"
                 dataSource={data}
@@ -45,7 +45,7 @@ const News = () => {
                     </List.Item>
                 )}
             />
-        </div>
+        </section>
     )
 }
 

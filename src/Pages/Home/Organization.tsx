@@ -1,6 +1,6 @@
 import { Card, Col, Container, Row } from "react-bootstrap"
 import { useTranslation } from "react-i18next"
-import manVector from "Images/man-vector.jpg"
+import manAvatar from "Images/man-avatar.jpg"
 
 const Organization = () => {
     const { t } = useTranslation()
@@ -25,13 +25,13 @@ const Organization = () => {
                         >
                             <Col className="col-12 col-md-8 mx-auto">
                                 <Card className="text-center">
-                                    <Card.Img src={manVector} />
+                                    <Card.Img src={manAvatar} />
                                     <Card.Footer>Er. Edwin Khew</Card.Footer>
                                 </Card>
                             </Col>
                             <Col className="col-12 col-md-8 mx-auto">
                                 <Card className="text-center">
-                                    <Card.Img src={manVector} />
+                                    <Card.Img src={manAvatar} />
                                     <Card.Footer>
                                         Dr. Ir. Danis Hidayat Sumadilaga
                                     </Card.Footer>
@@ -49,7 +49,7 @@ const Organization = () => {
                                 <Row className="text-center g-3" xs={1} lg={2}>
                                     <Col className="col-12 col-md-8 mx-auto">
                                         <Card className="text-center">
-                                            <Card.Img src={manVector} />
+                                            <Card.Img src={manAvatar} />
                                             <Card.Footer>
                                                 Prof. Armin Aberle
                                             </Card.Footer>
@@ -57,7 +57,7 @@ const Organization = () => {
                                     </Col>
                                     <Col className="col-12 col-md-8 mx-auto">
                                         <Card className="text-center">
-                                            <Card.Img src={manVector} />
+                                            <Card.Img src={manAvatar} />
                                             <Card.Footer>
                                                 Dr. Ir. Andhika Prastawa,
                                                 M.SEE., IPU
@@ -75,7 +75,7 @@ const Organization = () => {
                                 <Row className="text-center g-3" xs={1} lg={2}>
                                     <Col className="col-12 col-md-8 mx-auto">
                                         <Card className="text-center">
-                                            <Card.Img src={manVector} />
+                                            <Card.Img src={manAvatar} />
                                             <Card.Footer>
                                                 Dr. Thomas Reindl
                                             </Card.Footer>
@@ -83,7 +83,7 @@ const Organization = () => {
                                     </Col>
                                     <Col className="col-12 col-md-8 mx-auto">
                                         <Card className="text-center">
-                                            <Card.Img src={manVector} />
+                                            <Card.Img src={manAvatar} />
                                             <Card.Footer>
                                                 Prof. Michael Goutama
                                             </Card.Footer>

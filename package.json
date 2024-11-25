@@ -1,5 +1,4 @@
 {
-  "homepage": "https://addfa.github.io/iserec-fe/",
   "name": "fe",
   "private": true,
   "version": "0.0.0",
@@ -7,8 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview",
     "sass": "sass --style=compressed ./src/assets/sass/main.sass ./src/assets/css/index.css -w"

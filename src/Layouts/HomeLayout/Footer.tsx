@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <section id="footer" className="py-5 bg-indigo text-light">
             <Container>
-                <Row xs={1} md={2} lg={3}>
+                <Row xs={1} md={2} lg={3} className="g-5">
                     <Col className="text-center">
                         <LogoTwo className="w-75" />
                     </Col>

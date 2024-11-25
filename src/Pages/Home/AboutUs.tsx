@@ -25,10 +25,10 @@ const AboutUs = () => {
     const advisoryList = ["a"]
 
     return (
-        <section id="about-us" className="py-5 px-3 bg-cornsilk">
-            <Container>
-                <Row xs={1} lg={2}>
-                    <Col>
+        <section id="about-us" className="py-5 mt-2 px-3 bg-cornsilk">
+            <Container className="pb-5">
+                <Row xs={1} lg={2} className="g-3">
+                    <Col className="order-2 order-lg-1">
                         <div className="position-relative w-fit">
                             <Image src={aboutUs} alt="About Us" rounded />
 
@@ -73,7 +73,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col className="mt-5 mt-lg-0">
+                    <Col className="order-1 order-lg-2">
                         <h3 className="roboto-black">
                             {t("about-us.about-us")}
                         </h3>

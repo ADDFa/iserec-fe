@@ -5,8 +5,13 @@
         "members": "Members",
         "program": "Program",
         "partners": "Our Partner",
+        "news": "News",
         "project": "Projects",
-        "working-group": "Working Group"
+        "working-group": "Working Group",
+        "courses": "Courses",
+        "courses-list": {
+            "education": "Education"
+        }
     },
     "home-carousel": {
         "launching-desc": "The launching of ISEREC marks collaboration for sustainable energy innovation.",
@@ -17,12 +22,12 @@
         "about-us": "About Us",
         "welcome": "Come and Visit Us",
         "about-us-list": {
-            "background": "Background ISEREC",
-            "objective": "ISEREC Goal"
+            "background": "Background",
+            "objective": "ISEREC"
         },
         "background": {
             "paragraph-1": "The Sustainable Energy Association of Singapore (SEAS) representing the Consortium consisting of EDPR Sunseap, Gurin Energy, and Keppel Infrastructure Holding (Consortium Members) has proposed a development plan for the Riau Green Economic Corridor in letters since 9 November 2022.",
-            "paragraph-2": "Based on this, SEAS, Consortium Members, and the Coordinating Ministry for Maritime Affairs and Investment (Kemenko Marves) have held a series of meetings which were also attended by the Singapore Energy Market Authority (EMA), and one of the Consortium's commitments is to support the Photovoltaic technology Research and Development program ( PV) solar (from cells to modules and systems) as part of an End-to-End commitment.",
+            "paragraph-2": "Based on this, SEAS, Consortium Members, and the Coordinating Ministry for Maritime Affairs and Investment (Kemenko Marves) have held a series of meetings which were also attended by the Singapore Energy Market Authority (EMA), and one of the Consortium's commitments is to support the Photovoltaic technology Research and Development program (PV) solar (from cells to modules and systems) as part of an End-to-End commitment.",
             "paragraph-3": "SEAS, Consortium Members, the Coordinating Ministry for Maritime Affairs and Fisheries, and EMA have agreed that the Solar Energy Research Institute of Singapore (SERIS) at the National University of Singapore (NUS) and the Indonesian Engineers Association (PII) will work together to realize the research and development commitments mentioned above with the aim of carrying out world-class research and development on solar photovoltaic (PV) technology involving local and international institutions, companies and other non-governmental organizations.",
             "paragraph-4": "ISEREC will collaborate with various research institutions and universities in Indonesia such as the National Research and Innovation Agency (BRIN), University of Indonesia (UI), Bandung Institute of Technology (ITB), Gajah Mada University (UGM), Sepuluh Nopember Institute of Technology (ITS), Indonesian Institute of Technology (ITI), and others to form a collaborative network."
         },

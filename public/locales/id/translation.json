@@ -5,8 +5,13 @@
         "members": "Anggota",
         "program": "Program",
         "partners": "Mitra Kami",
+        "news": "Kegiatan Kami",
         "project": "Proyek",
-        "working-group": "Kelompok Kerja"
+        "working-group": "Kelompok Kerja",
+        "courses": "Kursus",
+        "courses-list": {
+            "education": "Pendidikan"
+        }
     },
     "home-carousel": {
         "launching-desc": "Peluncuran ISEREC menandai kolaborasi inovasi energi berkelanjutan.",
@@ -17,8 +22,8 @@
         "about-us": "Tentang Kami",
         "welcome": "Datang dan Kunjungi Kami",
         "about-us-list": {
-            "background": "Latar Belakang ISEREC",
-            "objective": "Tujuan ISEREC"
+            "background": "Latar Belakang",
+            "objective": "Tujuan"
         },
         "background": {
             "paragraph-1": "Sustainable Energy Association of Singapore (SEAS) yang mewakili Konsorsium yang terdiri dari EDPR Sunseap, Gurin Energy, dan Keppel Infrastructure Holding (Anggota Konsorsium) telah mengusulkan rencana pengembangan Riau Green Economic Corridor dalam surat-surat sejak 9 November 2022.",
