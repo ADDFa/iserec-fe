@@ -33,7 +33,7 @@ const Organization = () => {
                                 <Card className="text-center">
                                     <Card.Img src={manAvatar} />
                                     <Card.Footer>
-                                        Dr. Ir. Danis Hidayat Sumadilaga
+                                        Dr. Danis Hidayat Sumadilaga
                                     </Card.Footer>
                                 </Card>
                             </Col>
@@ -59,8 +59,7 @@ const Organization = () => {
                                         <Card className="text-center">
                                             <Card.Img src={manAvatar} />
                                             <Card.Footer>
-                                                Dr. Ir. Andhika Prastawa,
-                                                M.SEE., IPU
+                                                Dr. Ir. Andhika Prastawa
                                             </Card.Footer>
                                         </Card>
                                     </Col>
