@@ -7,9 +7,27 @@ import {
 import SelectLanguage from "Layouts/HomeLayout/Components/SelectLanguage"
 import logo from "assets/logo.png"
 import { useTranslation } from "react-i18next"
+import { MouseEventHandler } from "react"
 
 const Navbar = () => {
     const { t } = useTranslation()
+
+    const handleNavClick: MouseEventHandler<HTMLElement> = (e) => {
+        e.preventDefault()
+
+        if (!(e.target instanceof HTMLAnchorElement)) return
+
+        const idTarget = e.target.hash.substring(1)
+        const viewTarget = document.getElementById(idTarget)
+        if (!viewTarget) return
+
+        const offset = 100
+        const elementPosition = viewTarget.offsetTop
+        console.log(elementPosition)
+        const offsetPosition = elementPosition - offset
+
+        window.scrollTo({ top: offsetPosition, behavior: "smooth" })
+    }
 
     return (
         <BootstrapNavbar
@@ -22,7 +40,11 @@ const Navbar = () => {
                 </a>
                 <BootstrapNavbar.Toggle aria-controls="homeNavbar" />
                 <BootstrapNavbar.Collapse id="homeNavbar">
-                    <Nav className="me-auto my-2 my-lg-0" navbarScroll>
+                    <Nav
+                        className="me-auto my-2 my-lg-0"
+                        navbarScroll
+                        onClick={handleNavClick}
+                    >
                         <Nav.Link href="#about-us">
                             {t("home-navbar.about-us")}
                         </Nav.Link>
