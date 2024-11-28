@@ -14,11 +14,11 @@ const Navbar = () => {
     return (
         <BootstrapNavbar
             expand="lg"
-            className="sticky-top bg-light shadow-sm py-3"
+            className="sticky-top bg-body shadow-sm py-3"
         >
             <Container fluid>
                 <a href="/#home" className="navbar-brand">
-                    <img src={logo} alt="ISEREC" width={240} />
+                    <img src={logo} alt="ISEREC" width={200} />
                 </a>
                 <BootstrapNavbar.Toggle aria-controls="homeNavbar" />
                 <BootstrapNavbar.Collapse id="homeNavbar">
