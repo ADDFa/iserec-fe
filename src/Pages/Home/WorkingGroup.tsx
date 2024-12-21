@@ -5,14 +5,7 @@ import { Divider, List } from "antd"
 const WorkingGroup = () => {
     const { t } = useTranslation()
 
-    const workingGroups = [
-        "WG1 Solar Panel Tech.",
-        "WG2 Manufacture",
-        "WG3 Urban PV implementation",
-        "WG4 PLTS system",
-        "WG5 Human development",
-        "WG6 Standardisasi"
-    ]
+    const workingGroups = ["1", "2", "3", "4", "5", "6"]
 
     return (
         <section id="working-group" className="py-5 bg-cornsilk">
@@ -29,7 +22,9 @@ const WorkingGroup = () => {
                         size="large"
                         bordered
                         dataSource={workingGroups}
-                        renderItem={(item) => <List.Item>{item}</List.Item>}
+                        renderItem={(item) => (
+                            <List.Item>{t(`working-group-${item}`)}</List.Item>
+                        )}
                     />
                 </div>
             </Container>

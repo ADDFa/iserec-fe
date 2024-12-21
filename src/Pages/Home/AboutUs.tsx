@@ -1,12 +1,5 @@
-import {
-    Accordion,
-    Col,
-    Container,
-    Image,
-    ListGroup,
-    Row
-} from "react-bootstrap"
-import aboutUs from "Images/about-us.jpg"
+import { Col, Container, Image, Row } from "react-bootstrap"
+import aboutUs from "Images/about-us.png"
 import { useTranslation } from "react-i18next"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -15,22 +8,34 @@ import {
     faPhone
 } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "react-router"
+import logo from "assets/logo.png"
 
 const AboutUs = () => {
     const { t } = useTranslation()
 
-    const backgroundList = ["1", "2", "3", "4"]
-    const educationList = ["a", "b", "c", "d", "e", "f", "g", "h", "i"]
-    const technologyList = ["a", "b"]
-    const advisoryList = ["a"]
+    const characteristics = ["1", "2"]
+    const educations = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    const technologies = ["1", "2"]
 
     return (
-        <section id="about-us" className="py-5 mt-2 px-3 bg-cornsilk">
-            <Container className="pb-5">
+        <section id="about-us" className="py-5 mt-2 px-3">
+            <Container>
                 <Row xs={1} lg={2} className="g-3">
-                    <Col className="order-2 order-lg-1">
-                        <div className="position-relative w-fit">
-                            <Image src={aboutUs} alt="About Us" rounded />
+                    <Col className="col-12 col-lg-5 order-4 order-lg-1 px-lg-5 contact-container">
+                        <Image
+                            src={logo}
+                            alt="ISEREC"
+                            className="w-100 border p-2 mb-4"
+                            rounded
+                        />
+
+                        <div className="position-relative">
+                            <Image
+                                src={aboutUs}
+                                alt="About Us"
+                                className="w-100"
+                                rounded
+                            />
 
                             <div className="contact bg-gun-metal text-light position-absolute">
                                 <h5 className="roboto-black">
@@ -73,108 +78,120 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col className="order-1 order-lg-2">
-                        <h3 className="roboto-black">
-                            {t("about-us.about-us")}
+
+                    <Col className="col-12 col-lg-7 order-1 order-lg-2 mb-4">
+                        <h3 className="roboto-black mb-4">
+                            {t("home-navbar.introduction")}
                         </h3>
 
-                        <Accordion className="mt-4" defaultActiveKey="0">
-                            <Accordion.Item eventKey="0">
-                                <Accordion.Header>
-                                    {t("about-us.about-us-list.background")}
-                                </Accordion.Header>
-                                <Accordion.Body className="text-justify">
-                                    {backgroundList.map((indicator) => (
-                                        <p key={indicator}>
+                        <h6 className="roboto-black">
+                            PII AND E20 (ENGINEERING 20)
+                        </h6>
+                        <p className="text-justify">
+                            {t("about-us.pii-and-e20.p1")}
+                        </p>
+                        <p>{t("about-us.pii-and-e20.p2")}</p>
+                        <ol className="text-justify">
+                            {characteristics.map((val) => (
+                                <li key={val}>
+                                    {t(
+                                        `about-us.pii-and-e20.e-20-characteristics-${val}`
+                                    )}
+                                </li>
+                            ))}
+                        </ol>
+                        <p className="text-justify">
+                            {t("about-us.pii-and-e20.p3")}
+                        </p>
+                        <p className="text-justify">
+                            {t("about-us.pii-and-e20.p4")}
+                        </p>
+                        <p className="text-justify">
+                            {t("about-us.pii-and-e20.p5")}
+                        </p>
+                        <p className="text-justify">
+                            {t("about-us.pii-and-e20.p6")}
+                        </p>
+                    </Col>
+
+                    <Col className="order-2 order-lg-3">
+                        <h6 className="roboto-black">
+                            {t("about-us.background-iserec.title")}
+                        </h6>
+                        <p
+                            className="text-justify"
+                            dangerouslySetInnerHTML={{
+                                __html: t("about-us.background-iserec.p1")
+                            }}
+                        />
+                        <p
+                            className="text-justify"
+                            dangerouslySetInnerHTML={{
+                                __html: t("about-us.background-iserec.p2")
+                            }}
+                        />
+                        <p className="text-justify">
+                            {t("about-us.background-iserec.p3")}
+                        </p>
+                        <p className="text-justify">
+                            {t("about-us.background-iserec.p4")}
+                        </p>
+                    </Col>
+                    <Col className="order-3 order-lg-4">
+                        <h6 className="roboto-black">
+                            {t("about-us.objective-iserec.title")}
+                        </h6>
+                        <p className="text-justify">
+                            {t("about-us.objective-iserec.p1")}
+                        </p>
+
+                        <ol className="roboto-black text-justify">
+                            <li>
+                                {t("about-us.objective-iserec.education")}
+
+                                <ol type="a" className="roboto-regular">
+                                    {educations.map((val) => (
+                                        <li key={val}>
                                             {t(
-                                                `about-us.background.paragraph-${indicator}`
+                                                `about-us.objective-iserec.education-${val}`
                                             )}
-                                        </p>
+                                        </li>
                                     ))}
-                                </Accordion.Body>
-                            </Accordion.Item>
+                                </ol>
+                            </li>
 
-                            <Accordion.Item eventKey="1">
-                                <Accordion.Header>
-                                    {t("about-us.about-us-list.objective")}
-                                </Accordion.Header>
-                                <Accordion.Body className="text-justify">
-                                    <p>{t("about-us.objective.intro")}</p>
+                            <li>
+                                {t("about-us.objective-iserec.technology")}
 
-                                    <ListGroup as="ol" numbered>
-                                        <ListGroup.Item
-                                            as="li"
-                                            className="d-flex justify-content-between align-items-start"
-                                        >
-                                            <div className="ms-2 me-auto">
-                                                <div className="roboto-black">
-                                                    {t(
-                                                        "about-us.objective.education"
-                                                    )}
-                                                </div>
-                                                <ol type="A">
-                                                    {educationList.map(
-                                                        (indicator) => (
-                                                            <li key={indicator}>
-                                                                {t(
-                                                                    `about-us.objective.education-list.${indicator}`
-                                                                )}
-                                                            </li>
-                                                        )
-                                                    )}
-                                                </ol>
-                                            </div>
-                                        </ListGroup.Item>
-                                        <ListGroup.Item
-                                            as="li"
-                                            className="d-flex justify-content-between align-items-start"
-                                        >
-                                            <div className="ms-2 me-auto">
-                                                <div className="roboto-black">
-                                                    {t(
-                                                        "about-us.objective.technology"
-                                                    )}
-                                                </div>
-                                                <ol type="A">
-                                                    {technologyList.map(
-                                                        (indicator) => (
-                                                            <li key={indicator}>
-                                                                {t(
-                                                                    `about-us.objective.technology-list.${indicator}`
-                                                                )}
-                                                            </li>
-                                                        )
-                                                    )}
-                                                </ol>
-                                            </div>
-                                        </ListGroup.Item>
-                                        <ListGroup.Item
-                                            as="li"
-                                            className="d-flex justify-content-between align-items-start"
-                                        >
-                                            <div className="ms-2 me-auto">
-                                                <div className="roboto-black">
-                                                    {t(
-                                                        "about-us.objective.advisory"
-                                                    )}
-                                                </div>
-                                                <ol type="A">
-                                                    {advisoryList.map(
-                                                        (indicator) => (
-                                                            <li key={indicator}>
-                                                                {t(
-                                                                    `about-us.objective.advisory-list.${indicator}`
-                                                                )}
-                                                            </li>
-                                                        )
-                                                    )}
-                                                </ol>
-                                            </div>
-                                        </ListGroup.Item>
-                                    </ListGroup>
-                                </Accordion.Body>
-                            </Accordion.Item>
-                        </Accordion>
+                                <ol
+                                    type="a"
+                                    className="roboto-regular text-justify"
+                                >
+                                    {technologies.map((val) => (
+                                        <li key={val}>
+                                            {t(
+                                                `about-us.objective-iserec.technology-${val}`
+                                            )}
+                                        </li>
+                                    ))}
+                                </ol>
+                            </li>
+
+                            <li>
+                                {t("about-us.objective-iserec.advisor")}
+
+                                <ol
+                                    type="a"
+                                    className="roboto-regular text-justify"
+                                >
+                                    <li>
+                                        {t(
+                                            "about-us.objective-iserec.advisor-1"
+                                        )}
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
                     </Col>
                 </Row>
             </Container>

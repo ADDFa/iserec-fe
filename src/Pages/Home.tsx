@@ -3,16 +3,16 @@ import HomeComponent from "Pages/Home/Home"
 import AboutUs from "Pages/Home/AboutUs"
 import Organization from "Pages/Home/Organization"
 import WorkingGroup from "Pages/Home/WorkingGroup"
-import Program from "Pages/Home/Program"
+import News from "Pages/Home/News"
 
 const Home = () => {
     return (
         <Fragment>
             <HomeComponent />
+            <News />
             <AboutUs />
             <Organization />
             <WorkingGroup />
-            <Program />
         </Fragment>
     )
 }

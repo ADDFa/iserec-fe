@@ -3,12 +3,14 @@ import { useTranslation } from "react-i18next"
 import theLaunching from "Images/the-launching.jpg"
 import theLaunching2 from "Images/the-launching2.jpg"
 import mouPhotos from "Images/mou-photos.jpg"
+import signingTheMou from "Images/signing-the-mou.jpg"
+import rNd from "Images/r&d.png"
 
 const Home = () => {
     const { t } = useTranslation()
 
     return (
-        <section id="home" className="mt-3">
+        <section id="home" className="my-4">
             <Container>
                 <Carousel fade interval={2000}>
                     <Carousel.Item>
@@ -43,6 +45,21 @@ const Home = () => {
                             <h3>Global Innovation Partnership</h3>
                             <p>{t("home-carousel.mou-desc")}</p>
                         </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image
+                            src={signingTheMou}
+                            alt="MOU Photos"
+                            fluid
+                            rounded
+                        />
+                        <Carousel.Caption>
+                            <h3>Signing The Mou</h3>
+                            <p>{t("home-carousel.mou-desc")}</p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Image src={rNd} alt="MOU Photos" fluid rounded />
                     </Carousel.Item>
                 </Carousel>
             </Container>

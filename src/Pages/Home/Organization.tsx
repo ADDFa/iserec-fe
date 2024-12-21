@@ -1,12 +1,17 @@
 import { Card, Col, Container, Row } from "react-bootstrap"
 import { useTranslation } from "react-i18next"
-import manAvatar from "Images/man-avatar.jpg"
+import andhika from "Images/organisation-structure/Dr. Ir. Andhika Prastawa.jpg"
+import danis from "Images/organisation-structure/Dr. Ir. Danis Hidayat Sumadilaga, M.Eng.Sc., IPU., ACPE., APEC Eng..jpg"
+import thomas from "Images/organisation-structure/Dr. Thomas Reindl (3).jpg"
+import edwin from "Images/organisation-structure/Er. Edwin Khew.jpg"
+import armin from "Images/organisation-structure/Prof. Armin  Aberle (2).jpg"
+import michael from "Images/organisation-structure/Prof. Michael Goutama.jpg"
 
 const Organization = () => {
     const { t } = useTranslation()
 
     return (
-        <section id="structure" className="py-5">
+        <section id="organization" className="py-5">
             <Container>
                 <h3 className="roboto-black">{t("organization")}</h3>
                 <hr className="mb-lg-4" />
@@ -25,13 +30,13 @@ const Organization = () => {
                         >
                             <Col className="col-12 col-md-8 mx-auto">
                                 <Card className="text-center">
-                                    <Card.Img src={manAvatar} />
+                                    <Card.Img src={edwin} />
                                     <Card.Footer>Er. Edwin Khew</Card.Footer>
                                 </Card>
                             </Col>
                             <Col className="col-12 col-md-8 mx-auto">
                                 <Card className="text-center">
-                                    <Card.Img src={manAvatar} />
+                                    <Card.Img src={danis} />
                                     <Card.Footer>
                                         Dr. Danis Hidayat Sumadilaga
                                     </Card.Footer>
@@ -49,7 +54,7 @@ const Organization = () => {
                                 <Row className="text-center g-3" xs={1} lg={2}>
                                     <Col className="col-12 col-md-8 mx-auto">
                                         <Card className="text-center">
-                                            <Card.Img src={manAvatar} />
+                                            <Card.Img src={armin} />
                                             <Card.Footer>
                                                 Prof. Armin Aberle
                                             </Card.Footer>
@@ -57,7 +62,7 @@ const Organization = () => {
                                     </Col>
                                     <Col className="col-12 col-md-8 mx-auto">
                                         <Card className="text-center">
-                                            <Card.Img src={manAvatar} />
+                                            <Card.Img src={andhika} />
                                             <Card.Footer>
                                                 Dr. Ir. Andhika Prastawa
                                             </Card.Footer>
@@ -74,7 +79,7 @@ const Organization = () => {
                                 <Row className="text-center g-3" xs={1} lg={2}>
                                     <Col className="col-12 col-md-8 mx-auto">
                                         <Card className="text-center">
-                                            <Card.Img src={manAvatar} />
+                                            <Card.Img src={thomas} />
                                             <Card.Footer>
                                                 Dr. Thomas Reindl
                                             </Card.Footer>
@@ -82,7 +87,7 @@ const Organization = () => {
                                     </Col>
                                     <Col className="col-12 col-md-8 mx-auto">
                                         <Card className="text-center">
-                                            <Card.Img src={manAvatar} />
+                                            <Card.Img src={michael} />
                                             <Card.Footer>
                                                 Prof. Michael Goutama
                                             </Card.Footer>
@@ -93,60 +98,6 @@ const Organization = () => {
                         </Row>
                     </Card.Body>
                 </Card>
-
-                {/* <Row xs={1} lg={2} className="align-items-center">
-                    <Col lg={8} className="order-2 order-lg-1">
-                        <Row xs={1} md={2}>
-                            <Col>
-                                <Image
-                                    src={manVector}
-                                    className="w-75"
-                                    thumbnail
-                                />
-                            </Col>
-                            <Col>
-                                <Image
-                                    src={womanVector}
-                                    className="w-75"
-                                    thumbnail
-                                />
-                            </Col>
-                        </Row>
-                    </Col>
-                    <Col lg={4} className="order-1 order-lg-2">
-                        <h1 className="roboto-black">
-                            DEWAN <br /> PENASEHAT
-                        </h1>
-                    </Col>
-                </Row>
-
-                <hr className="my-4" />
-
-                <Row xs={1} lg={2} className="align-items-center mt-3">
-                    <Col lg={4}>
-                        <h1 className="roboto-black text-end">
-                            PEMIMPIN <br /> BERSAMA
-                        </h1>
-                    </Col>
-                    <Col lg={8}>
-                        <Row xs={1} md={2}>
-                            <Col>
-                                <Image
-                                    src={manVector}
-                                    className="w-75"
-                                    thumbnail
-                                />
-                            </Col>
-                            <Col>
-                                <Image
-                                    src={womanVector}
-                                    className="w-75"
-                                    thumbnail
-                                />
-                            </Col>
-                        </Row>
-                    </Col>
-                </Row> */}
             </Container>
         </section>
     )

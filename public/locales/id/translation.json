@@ -1,59 +1,68 @@
 {
     "home-navbar": {
-        "about-us": "Tentang Kami",
-        "structure": "Struktur Organisasi",
-        "members": "Anggota",
-        "program": "Program",
-        "partners": "Mitra Kami",
-        "news": "Kegiatan Kami",
-        "project": "Proyek",
+        "about-iserec": "Tentang ISEREC",
+        "introduction": "Perkenalan",
+        "ihba": "Penasihat Dewan Kehormatan Internasional",
+        "organization": "Struktur Organisasi",
         "working-group": "Kelompok Kerja",
+        "event-and-courses": "Event dan Kursus",
+        "event": "Event",
         "courses": "Kursus",
-        "courses-list": {
-            "education": "Pendidikan"
-        }
+        "publications": "Publikasi"
     },
     "home-carousel": {
         "launching-desc": "Peluncuran ISEREC menandai kolaborasi inovasi energi berkelanjutan.",
         "launching-desc-2": "Melibatkan institusi global, ISEREC mendorong penelitian teknologi fotovoltaik terkini.",
         "mou-desc": "Kemitraan lintas negara untuk mendorong inovasi dan teknologi berkelanjutan."
     },
+    "news": {
+        "news-1": {
+            "title": "MoU PII with CTIS",
+            "date": "15 Nov 2024",
+            "desc": "E20 (Engineering 20) adalah usulan dari Persatuan Insinyur Indonesia (PII) untuk menjadi kelompok yang terlibat dalam G20. Hal ini merupakan salah satu langkah berani untuk mengangkat peran insinyur dari sekadar Engineering menjadi Leader Engineers yang mampu memberikan kontribusi efektif dalam menghadapi tantangan ekonomi, lingkungan, dan kesehatan."
+        },
+        "news-2": {
+            "title": "ISEREC Inauguration",
+            "date": "02 Okt 2024",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore fugit et nesciunt tenetur, iste, nemo sunt soluta odio dolorum labore necessitatibus adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore fugit et nesciunt tenetur, iste, nemo sunt soluta odio dolorum labore necessitatibus adipisci."
+        }
+    },
     "about-us": {
-        "about-us": "Tentang Kami",
-        "welcome": "Datang dan Kunjungi Kami",
-        "about-us-list": {
-            "background": "Latar Belakang",
-            "objective": "Tujuan"
+        "pii-and-e20": {
+            "p1": "E20 (Engineering 20) merupakan usulan dari Lembaga Insinyur Indonesia untuk menjadi kelompok keterlibatan G20. Ini merupakan agenda yang berani untuk mengangkat Insinyur dari Teknik untuk menjadi Insinyur Pemimpin yang akan berkontribusi secara efektif untuk menghadapi tantangan dan isu ekonomi, lingkungan, dan perawatan kesehatan. Kami telah menerima dukungan dari banyak negara, termasuk Tiongkok. Kami sedang dalam perjalanan untuk menjadi Kelompok Keterlibatan penuh G20.",
+            "p2": "E20 dirancang untuk menjadi Kelompok Keterlibatan G20. Kelompok ini dirancang untuk memiliki karakteristik berikut:",
+            "e-20-characteristics-1": "Indonesia menjadi “inisiator” E20 saat Indonesia menjadi tuan rumah G20 pada tahun 2022.",
+            "e-20-characteristics-2": "Inisiatif aktif Indonesia merupakan kontribusinya terhadap tantangan dan resolusi dunia saat ini dalam menangani Perubahan Iklim, transformasi digital, dan perawatan kesehatan.",
+            "p3": "E20, selain dari latihan retorika dan membangun citra, akan berfungsi sebagai wadah kolaborasi untuk menghasilkan keluaran nyata dan konkret seperti transisi energi hijau, aplikasi digital pada berbagai sektor industri dengan cara yang dapat dilaksanakan, dan berfokus pada produksi produk perawatan kesehatan yang efisien dan hemat biaya.",
+            "p4": "E20 akan menjadi platform produktif G20 untuk menghasilkan dampak global yang signifikan dan kontribusi positif dalam memecahkan berbagai masalah dan tantangan yang dihadapi ekonomi dan masyarakat.",
+            "p5": "Berdasarkan platform dan semangat E20, Pusat Penelitian Semikonduktor Sel Surya yang merupakan hasil kerja sama dengan SERIS (Solar Energy Research Institute of Singapore) akan diluncurkan pada tanggal 2 Oktober 2024. ISEREC juga bekerja sama dengan perguruan tinggi dan lembaga penelitian Indonesia lainnya seperti Institut Teknologi Bandung (ITB), Universitas Indonesia (UI), Universitas Gajahmada (UGM), Badan Riset Nasional (BRIN) dan lain-lain untuk membentuk jaringan kerja sama.",
+            "p6": "Di bawah platform kolaboratif antara Singapura dan Indonesia mengenai energi terbarukan, Institut Penelitian Energi Surya Singapura (SERIS) di Universitas Nasional Singapura (NUS) dan Lembaga Insinyur Indonesia (PII) telah membentuk kolaborasi untuk membentuk Penelitian dan Pengembangan dengan tujuan menyelenggarakan penelitian dan pengembangan kelas dunia pada teknologi fotovoltaik surya (PV) yang melibatkan lembaga, perusahaan, dan organisasi non-pemerintah lokal dan internasional lainnya."
         },
-        "background": {
-            "paragraph-1": "Sustainable Energy Association of Singapore (SEAS) yang mewakili Konsorsium yang terdiri dari EDPR Sunseap, Gurin Energy, dan Keppel Infrastructure Holding (Anggota Konsorsium) telah mengusulkan rencana pengembangan Riau Green Economic Corridor dalam surat-surat sejak 9 November 2022.",
-            "paragraph-2": "Berdasarkan hal tersebut, SEAS, Anggota Konsorsium, dan Kementerian Koordinator Bidang Kemaritiman dan Investasi (Kemenko Marves) telah mengadakan serangkaian pertemuan yang juga dihadiri oleh Energy Market Authority (EMA) Singapur, dan salah satu komitmen Konsorsium adalah mendukung program Penelitian dan Pengembangan teknologi photovoltaic (PV) surya (dari sel hingga modul dan sistem) sebagai bagian dari komitmen End-to-End.",
-            "paragraph-3": "SEAS, Anggota Konsorsium, Kemenko Marves, dan EMA telah sepakat bahwa Solar Energy Research Institute of Singapore (SERIS) di National University of Singapore (NUS) dan Persatuan Insinyur Indonesia (PII) akan bekerja sama untuk mewujudkan komitmen penelitian dan pengembangan yang disebutkan di atas dengan tujuan menyelenggarakan penelitian dan pengembangan kelas dunia pada teknologi photovoltaic (PV) surya yang melibatkan institusi lokal dan internasional, perusahaan, serta organisasi non-pemerintah lainnya.",
-            "paragraph-4": "ISEREC akan bekerja sama dengan berbagai lembaga penelitian dan universitas di Indonesia seperti Badan Riset dan Inovasi Nasional (BRIN), Universitas Indonesia (UI), Institut Teknologi Bandung (ITB), Universitas Gajah Mada (UGM), Institut Teknologi Sepuluh Nopember (ITS), Institut Teknologi Indonesia (ITI), dan lainnya untuk membentuk jaringan kolaboratif."
+        "background-iserec": {
+            "title": "LATAR BELAKANG",
+            "p1": "Sustainable Energy Association of Singapore <strong>(SEAS)</strong> yang mewakili Konsorsium perusahaan (<strong>Anggota Konsorsium</strong>) bekerja sama dengan Tim E20 mengusulkan rencana pengembangan Koridor Ekonomi Hijau Riau pada tahun 2022.",
+            "p2": "Berdasarkan hal tersebut, SEAS, Anggota Konsorsium, dan MARVES telah mengadakan sejumlah pertemuan yang juga dihadiri oleh Energy Market Authority Of Singapore (<strong>EMA</strong>) dan salah satu komitmen Anggota Konsorsium adalah untuk mendukung program Penelitian dan Pengembangan untuk teknologi fotovoltaik surya (PV) (dari sel surya hingga modul dan sistem) sebagai bagian dari <strong>End-to-End commitments</strong> yang dimaksudkan.",
+            "p3": "Disepakati bahwa Institut Penelitian Energi Surya Singapura (SERIS) di Universitas Nasional Singapura (NUS) dan Lembaga Insinyur Indonesia (PII) untuk berkolaborasi guna membentuk komitmen Penelitian dan Pengembangan yang disebutkan di atas guna menyelenggarakan penelitian dan pengembangan kelas dunia pada teknologi fotovoltaik surya (PV) yang melibatkan lembaga, perusahaan, dan organisasi non-pemerintah lokal dan internasional lainnya.",
+            "p4": "ISEREC akan berkolaborasi dengan universitas dan lembaga penelitian Indonesia lainnya seperti Institut Teknologi Bandung (ITB), Institut Teknologi Indonesia (ITI), Badan Riset Nasional (BRIN) dan lainnya untuk membentuk jaringan kolaboratif."
         },
-        "objective": {
-            "intro": "Berikut adalah daftar tujuan dari Indonesia Solar Energy Research Centre (ISEREC) sesuai dengan MOU tertanggal 16 Agustus 2023:",
+        "objective-iserec": {
+            "title": "TUJUAN",
+            "p1": "Berikut ini adalah daftar tujuan Pusat Penelitian Energi Surya Indonesia (ISEREC) yang tidak lengkap:",
             "education": "Pendidikan",
-            "education-list": {
-                "a": "Bekerja sama dengan berbagai Universitas dan Institusi global;",
-                "b": "Mendukung mahasiswa PhD dan pascadoktoral dalam teknologi sel surya;",
-                "c": "Pertukaran mahasiswa untuk belajar;",
-                "d": "Pertukaran anggota fakultas untuk belajar, penelitian, dan partisipasi dalam program pendidikan;",
-                "e": "Pertukaran akademisi untuk ceramah, diskusi, dan berbagi pengalaman;",
-                "f": "Pertukaran publikasi dalam bidang yang menjadi minat kedua universitas;",
-                "g": "Pengembangan profesional kolaboratif;",
-                "h": "Program pendidikan bersama; dan",
-                "i": "Kegiatan lainnya yang disepakati bersama."
-            },
+            "education-1": "Berkolaborasi dengan berbagai Universitas dan Institusi global",
+            "education-2": "Mendukung mahasiswa PhD dan Post-doktoral dalam teknologi sel surya",
+            "education-3": "Pertukaran mahasiswa untuk studi",
+            "education-4": "Pertukaran anggota fakultas untuk studi, penelitian, dan partisipasi dalam program pendidikan",
+            "education-5": "Pertukaran cendekiawan untuk ceramah, diskusi, dan berbagi pengalaman",
+            "education-6": "Pertukaran publikasi di bidang yang diminati oleh kedua universitas",
+            "education-7": "Pengembangan profesional secara kolaboratif",
+            "education-8": "Program pendidikan bersama",
+            "education-9": "Kegiatan lain yang disepakati bersama",
             "technology": "Teknologi",
-            "technology-list": {
-                "a": "Mengembangkan tim Indonesia yang sangat terampil dalam teknologi fotovoltaik surya;",
-                "b": "Mendukung perusahaan Indonesia dalam mengembangkan kemampuan manufaktur."
-            },
-            "advisory": "Advisory",
-            "advisory-list": {
-                "a": "Memberikan dukungan konsultasi kepada perusahaan dan institusi berdasarkan penelitian dan pengembangan di atas."
-            }
+            "technology-1": "Untuk mengembangkan Tim Indonesia yang memiliki keahlian tinggi dalam teknologi fotovoltaik surya",
+            "technology-2": "Untuk mendukung perusahaan Indonesia dalam mengembangkan kemampuan manufaktur",
+            "advisor": "Penasihat",
+            "advisor-1": "Memberikan dukungan konsultasi kepada perusahaan dan lembaga lain berdasarkan karya-karya tersebut di atas"
         }
     },
     "organization": "Struktur Organisasi",
@@ -65,23 +74,13 @@
     },
     "working-group":"Kelompok Kerja",
     "working-group-desc": "Indonesian Solar Energy Research Center (ISEREC) dirancang untuk menjadi ujung tombak dalam penelitian, pengembangan, dan implementasi solusi energi surya yang mutakhir. Inti dari misi ISEREC adalah enam Kelompok Kerja (Working Group) yang masing-masing didedikasikan untuk memajukan aspek-aspek penting dari teknologi energi surya dan ekosistemnya.",
+    "working-group-1": "WG1 Teknologi Panel Surya",
+    "working-group-2": "WG2 Manufaktur",
+    "working-group-3": "WG3 Implementasi PLTS Perkotaan",
+    "working-group-4": "WG4 Sistem PLTS (Pembangkit Listrik Tenaga Surya)",
+    "working-group-5": "WG5 Pengembangan Manusia",
+    "working-group-6": "WG6 Standardisasi",
     "working-group-intro": "Terdapat working group yang terdiri dari 6 WG:",
-    "program-and-news": "Program dan Kegiatan Kami",
-    "program": {
-        "p-1": "ISEREC dirancang sebagai pusat unggulan untuk penelitian, pengembangan, dan implementasi solusi energi surya yang mutakhir. Salah satu fokus utamanya adalah bidang pendidikan, di mana ISEREC bekerja sama dengan universitas dan institusi global untuk mendukung mahasiswa PhD, pascadoktoral, serta mengadakan program pertukaran akademik. Selain itu, ISEREC juga mengembangkan program pendidikan bersama dan kegiatan pengembangan profesional yang bertujuan meningkatkan kualitas sumber daya manusia di bidang energi surya.",
-        "p-2": "Dalam aspek teknologi, ISEREC berkomitmen untuk mengembangkan tenaga ahli Indonesia di bidang fotovoltaik surya sekaligus mendukung perusahaan lokal dalam meningkatkan kemampuan manufaktur. Melalui pendekatan ini, ISEREC berupaya memperkuat ekosistem teknologi energi surya di Indonesia, menjadikannya sebagai salah satu motor penggerak ekonomi hijau di tingkat nasional dan internasional.",
-        "p-3": "ISEREC juga menyediakan layanan konsultasi berbasis penelitian dan pengembangan, membantu perusahaan dan institusi dalam menerapkan teknologi energi surya secara optimal. Untuk mewujudkan visi besarnya, ISEREC membentuk enam kelompok kerja (Working Group) yang masing-masing berfokus pada Solar Panel Technology, Manufacture, Urban PV Implementation, PLTS System, Human Development, dan Standardisasi. Pendekatan holistik ini diharapkan dapat menciptakan ekosistem energi surya yang terintegrasi dan berkelanjutan."
-    },
-    "news": {
-        "news-1": {
-            "title": "MoU PII with CTIS",
-            "date": "15 Nov 2024"
-        },
-        "news-2": {
-            "title": "ISEREC Inauguration",
-            "date": "02 Okt 2024"
-        }
-    },
     "contact": "Hubungi Kami",
     "visit-us": "Kunjungi Kami",
     "documentation": "Dokumentasi"
