@@ -6,6 +6,8 @@ import { useTranslation } from "react-i18next"
 const SelectLanguage = () => {
     const { i18n } = useTranslation()
 
+    const langText = i18n.language.split("-")[0].toUpperCase()
+
     return (
         <Dropdown align="end">
             <Dropdown.Toggle
@@ -14,21 +16,21 @@ const SelectLanguage = () => {
                 variant="indigo"
             >
                 <FontAwesomeIcon icon={faLanguage} />
-                <p className="mb-0">{i18n.language.toUpperCase()}</p>
+                <p className="mb-0">{langText}</p>
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
                 <Dropdown.Item
                     href="#"
                     className="dropdown-item"
-                    onClick={() => i18n.changeLanguage("en")}
+                    onClick={() => i18n.changeLanguage("en-US")}
                 >
                     English
                 </Dropdown.Item>
                 <Dropdown.Item
                     href="#"
                     className="dropdown-item"
-                    onClick={() => i18n.changeLanguage("id")}
+                    onClick={() => i18n.changeLanguage("id-ID")}
                 >
                     Indonesia
                 </Dropdown.Item>

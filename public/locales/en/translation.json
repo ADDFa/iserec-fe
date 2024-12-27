@@ -17,12 +17,12 @@
     },
     "news": {
         "news-1": {
-            "title": "MoU PII with CTIS",
-            "date": "Nov 15 2024",
+            "title": "The Launching Of Iserec",
+            "date": "2024 Oct 02",
             "desc": "E20  (Engineering 20) is a proposal by Indonesia Institution of Engineers to be a engagement group of G20. It is a bold agenda to rapture Engineers from Engineering to become Leader Engineers who shall contribute in an effective way to deal with economic, environmental and health care challenges and issues."
         },
         "news-2": {
-            "title": "ISEREC Inauguration",
+            "title": "The Sign of MoU CTIS with PII",
             "date": "Okt 02 2024",
             "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore fugit et nesciunt tenetur, iste, nemo sunt soluta odio dolorum labore necessitatibus adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore fugit et nesciunt tenetur, iste, nemo sunt soluta odio dolorum labore necessitatibus adipisci."
         }
@@ -81,6 +81,5 @@
     "working-group-6": "WG6 Standardisasi",
     "working-group-intro": "There is a working group consisting of 6 WGs:",
     "contact": "Contact",
-    "visit-us": "Visit Us",
     "documentation": "Documentary"
 }
