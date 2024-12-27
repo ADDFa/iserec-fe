@@ -5,7 +5,7 @@ import mouWithCtis from "data/news/mou-with-ctis.jpg"
 import peresmian from "data/news/peresmian.jpg"
 import { Card, Col, Container, Row } from "react-bootstrap"
 import { useTranslation } from "react-i18next"
-import { Link, NavLink } from "react-router"
+import { NavLink } from "react-router"
 
 const News = () => {
     const { t } = useTranslation()
