@@ -13,8 +13,11 @@ const WorkingGroup = () => {
 
             <p className="text-justify mt-3">{t("working-group-desc")}</p>
 
-            <Divider>{t("working-group-intro")}</Divider>
-            <div className="col-12 col-md-10 col-lg-8 mx-auto">
+            <br />
+            <Divider className="fw-bold fs-4">
+                {t("working-group-intro")}
+            </Divider>
+            <div className="col-12 col-md-10 col-lg-8 mx-auto fw-bold fs-5">
                 <List
                     size="large"
                     bordered

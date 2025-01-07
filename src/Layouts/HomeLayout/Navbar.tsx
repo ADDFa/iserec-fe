@@ -16,7 +16,8 @@ const Navbar = () => {
     return (
         <BootstrapNavbar
             expand="lg"
-            className="sticky-top bg-body shadow-sm py-3"
+            className="sticky-top shadow-sm py-3"
+            bg="jasmine"
         >
             <Container fluid>
                 <NavLink
@@ -49,16 +50,16 @@ const Navbar = () => {
                                 {t("home-navbar.working-group")}
                             </DropdownItem>
                         </NavDropdown>
-                        <Nav.Link href="">
+                        <NavLink to="/publication" className="nav-link">
                             {t("home-navbar.publications")}
-                        </Nav.Link>
+                        </NavLink>
                         <NavDropdown title={t("home-navbar.event-and-courses")}>
-                            <NavDropdown.Item>
+                            <DropdownItem href="/event">
                                 {t("home-navbar.event")}
-                            </NavDropdown.Item>
-                            <NavDropdown.Item>
+                            </DropdownItem>
+                            <DropdownItem href="/course">
                                 {t("home-navbar.courses")}
-                            </NavDropdown.Item>
+                            </DropdownItem>
                         </NavDropdown>
                     </Nav>
                     <SelectLanguage />

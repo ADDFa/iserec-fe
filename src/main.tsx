@@ -8,16 +8,22 @@ import News from "Pages/News"
 import Introduction from "Pages/Introduction"
 import Organization from "Pages/Organization"
 import WorkingGroup from "Pages/WorkingGroup"
+import Publication from "Pages/Publication"
+import Course from "Pages/Course"
+import Event from "Pages/Event"
 
 createRoot(document.getElementById("root")!).render(
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<HomeLayout />}>
                 <Route index element={<Home />} />
-                <Route path="news/:name" element={<News />} />
+                <Route path="/news/:name" element={<News />} />
                 <Route path="/introduction" element={<Introduction />} />
                 <Route path="/organization" element={<Organization />} />
                 <Route path="/working-group" element={<WorkingGroup />} />
+                <Route path="/publication" element={<Publication />} />
+                <Route path="/event" element={<Event />} />
+                <Route path="/course" element={<Course />} />
             </Route>
         </Routes>
     </BrowserRouter>
