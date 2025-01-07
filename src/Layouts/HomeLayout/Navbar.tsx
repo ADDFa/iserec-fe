@@ -40,7 +40,7 @@ const Navbar = () => {
                             <DropdownItem href="/introduction">
                                 {t("home-navbar.introduction")}
                             </DropdownItem>
-                            <DropdownItem href="#">
+                            <DropdownItem href="/ihba">
                                 {t("home-navbar.ihba")}
                             </DropdownItem>
                             <DropdownItem href="/organization">

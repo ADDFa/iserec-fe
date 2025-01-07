@@ -11,6 +11,7 @@ import WorkingGroup from "Pages/WorkingGroup"
 import Publication from "Pages/Publication"
 import Course from "Pages/Course"
 import Event from "Pages/Event"
+import IHBA from "Pages/IHBA"
 
 createRoot(document.getElementById("root")!).render(
     <BrowserRouter>
@@ -19,6 +20,7 @@ createRoot(document.getElementById("root")!).render(
                 <Route index element={<Home />} />
                 <Route path="/news/:name" element={<News />} />
                 <Route path="/introduction" element={<Introduction />} />
+                <Route path="/ihba" element={<IHBA />} />
                 <Route path="/organization" element={<Organization />} />
                 <Route path="/working-group" element={<WorkingGroup />} />
                 <Route path="/publication" element={<Publication />} />
