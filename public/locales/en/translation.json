@@ -71,7 +71,7 @@
         "co-chairs": "CO-Chairs",
         "co-ceo": "CO-CEO"
     },
-    "working-group":"Working Group",
+    "working-group": "Working Group",
     "working-group-desc": "The Indonesian Solar Energy Research Center (ISEREC) is designed to be the spearhead in research, development and implementation of cutting-edge solar energy solutions. At the heart of ISEREC's mission are six Working Groups each dedicated to advancing important aspects of solar energy technology and its ecosystem.",
     "working-group-1": "WG1 Solar Panel Tech.",
     "working-group-2": "WG2 Manufacture",
@@ -81,5 +81,12 @@
     "working-group-6": "WG6 Standardisasi",
     "working-group-intro": "There is a working group consisting of 6 WGs:",
     "contact": "Contact",
-    "documentation": "Documentary"
+    "documentation": "Documentary",
+    "ihba": {
+        "indroyono_soesilo_desc": "<p class='text-justify'>Prof. Indroyono is a distinguished Indonesian technocrat, scientist, and senior policy advisor with over 40 years of experience in geology, marine science, natural resource management, and international diplomacy. Holding advanced degrees in remote sensing and geological engineering from leading U.S. institutions, he has held top leadership roles in both national and global arenas, including as Coordinating Minister for Maritime Affairs of Indonesia and Director at the United Nations Food and Agriculture Organization (UN-FAO) in Rome.</p> <p class='text-justify'>He has led key government bodies such as the Marine and Fisheries Research Agency and served in cross-sectoral roles spanning marine exploration, disaster resilience, aviation diplomacy, and public welfare. A member of the Indonesian Academy of Sciences, Prof. Indroyono  continues to contribute as an expert reviewer and advisor on science, education, and strategic resource planning. His career reflects a rare combination of academic excellence, executive leadership, and commitment to sustainable national development.</p>",
+        "li_chun_an_desc": "<ul class='text-justify'><li>Li Chun An is a distinguished entrepreneur and business leader with a strong background in physics, having graduated from the Departement of Physics at Lanzhou University. He is a cofounder of Longi Green Energy Technology, one of China's largest manufacturers of solar wafers and modules.</li><li><p>Current Positions:</p><ul><li>Chairman of Linton Technologies Group</li><li>Chairman of the 1% Fund Management Committee of the Chinese Red Cross</li><li>Trustee of the Lanzhou University Education Foundation</li></ul></li><li><p>Major Achievements</p><ul><li>He was appointed as Vice Chairman of the Fourth China Heavy Machinery Industry Association's Special Committee on Mineral Processing Equipment.</li><li>He obtained a national invention patent for the \"Circulating Oil-Cooled Electromagnetic Iron Remover\" in 2010</li></ul></li></ul>",
+        "li_chun_an_position": "Chief Advisor, Green Corridor Development",
+        "edwin_khew_desc": "<ul><li><p><strong>Industry Leadership:</strong></p><ul><li>A prominent engineer and sustainability leader with a strong background in renewable energy and waste-to-energy systems.</li><li>As the Chairman of SEAS, he drove key initiatives to promote clean energy and sustainable practices across Singapore.</li></ul></li><li><p><strong>Expertise:</strong></p><ul><li>Known for pioneering efforts in waste management and resource recovery, focusing on converting waste into energy and reducing environmental impact.</li><li>Significant experience in renewable energy infrastructure and policy advocacy, shaping the landscape of clean energy adoption in the region.</li></ul></li><li><p><strong>Impact:</strong></p><ul><li>Advocated for sustainable waste management solutions, helping industries and governments transition toward more circular economies and efficient energy practices.</li><li>An influential voice in sustainability, playing a central role in advancing Singapore’s green energy policies.</li></ul></li></ul>",
+        "edwin_khew_position": "Chairman, Sustainable Energy Association of Singapore (SEAS) <br /> Chairman, Green Corridor Development"
+    }
 }

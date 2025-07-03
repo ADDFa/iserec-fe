@@ -72,7 +72,7 @@
         "co-chairs": "Ketua Bersama",
         "co-ceo": "CO-CEO"
     },
-    "working-group":"Kelompok Kerja",
+    "working-group": "Kelompok Kerja",
     "working-group-desc": "Indonesian Solar Energy Research Center (ISEREC) dirancang untuk menjadi ujung tombak dalam penelitian, pengembangan, dan implementasi solusi energi surya yang mutakhir. Inti dari misi ISEREC adalah enam Kelompok Kerja (Working Group) yang masing-masing didedikasikan untuk memajukan aspek-aspek penting dari teknologi energi surya dan ekosistemnya.",
     "working-group-1": "WG1 Teknologi Panel Surya",
     "working-group-2": "WG2 Manufaktur",
@@ -82,5 +82,12 @@
     "working-group-6": "WG6 Standardisasi",
     "working-group-intro": "Terdapat working group yang terdiri dari 6 WG:",
     "contact": "Hubungi Kami",
-    "documentation": "Dokumentasi"
+    "documentation": "Dokumentasi",
+    "ihba": {
+        "indroyono_soesilo_desc": "<p class='text-justify'>Prof. Indroyono adalah seorang teknokrat, ilmuwan, dan penasihat kebijakan senior terkemuka di Indonesia dengan pengalaman lebih dari 40 tahun di bidang geologi, ilmu kelautan, pengelolaan sumber daya alam, dan diplomasi internasional. Dengan gelar lanjutan di bidang penginderaan jarak jauh dan teknik geologi dari berbagai lembaga terkemuka di AS, ia telah memegang peran kepemimpinan puncak di kancah nasional dan global, termasuk sebagai Menteri Koordinator Bidang Kelautan Indonesia dan Direktur di Organisasi Pangan dan Pertanian Perserikatan Bangsa-Bangsa (UN-FAO) di Roma. Ia telah memimpin berbagai badan pemerintah utama seperti Badan Penelitian Kelautan dan Perikanan dan menjabat berbagai peran lintas sektoral yang mencakup eksplorasi kelautan, ketahanan bencana, diplomasi penerbangan, dan kesejahteraan publik.</p> <p class='text-justify'>Sebagai anggota Akademi Ilmu Pengetahuan Indonesia, Prof. Indroyono terus berkontribusi sebagai peninjau ahli dan penasihat di bidang sains, pendidikan, dan perencanaan sumber daya strategis. Kariernya mencerminkan kombinasi langka antara keunggulan akademis, kepemimpinan eksekutif, dan komitmen terhadap pembangunan nasional yang berkelanjutan.</p>",
+        "li_chun_an_desc": "<ul class='text-justify'><li>Li Chun An adalah seorang pengusaha dan pemimpin bisnis terkemuka dengan latar belakang yang kuat di bidang fisika, setelah lulus dari Departemen Fisika di Universitas Lanzhou. Ia adalah salah satu pendiri Longi Green Energy Technology, salah satu produsen wafer dan modul surya terbesar di Tiongkok.</li><li><p>Posisi Saat Ini:</p><ul><li>Ketua Linton Technologies Group</li><li>Ketua Komite Manajemen Dana 1% Palang Merah Tiongkok</li><li>Wali Amanat Yayasan Pendidikan Universitas Lanzhou</li></ul></li><li><p>Prestasi Utama:</p><ul><li>Ia diangkat sebagai Wakil Ketua Komite Khusus Peralatan Pengolahan Mineral Asosiasi Industri Mesin Berat Tiongkok Keempat.</li><li>Dia memperoleh paten penemuan nasional untuk \\\"Penghilang Besi Elektromagnetik Berpendingin Minyak Bersirkulasi\\\" pada tahun 2010</li></ul></li></ul>",
+        "li_chun_an_position": "Penasehat Utama, Pengembangan Koridor Hijau",
+        "edwin_khew_desc": "<ul><li><p><strong>Kepemimpinan Industri:</strong></p><ul><li>Seorang insinyur dan pemimpin keberlanjutan terkemuka dengan latar belakang kuat di bidang energi terbarukan dan sistem limbah-menjadi-energi.</li><li>Sebagai Ketua SEAS, beliau memimpin inisiatif utama untuk mempromosikan energi bersih dan praktik berkelanjutan di seluruh Singapura.</li></ul></li><li><p><strong>Keahlian:</strong></p><ul><li>Dikenal atas upayanya dalam manajemen limbah dan pemulihan sumber daya, dengan fokus pada konversi limbah menjadi energi dan pengurangan dampak lingkungan.</li><li>Berpengalaman luas dalam infrastruktur energi terbarukan dan advokasi kebijakan, membentuk lanskap adopsi energi bersih di kawasan ini.</li></ul></li><li><p><strong>Dampak:</strong></p><ul><li>Aktif mengadvokasi solusi manajemen limbah berkelanjutan, membantu industri dan pemerintah bertransisi ke ekonomi sirkular dan praktik energi yang efisien.</li><li>Menjadi suara berpengaruh dalam keberlanjutan, berperan sentral dalam memajukan kebijakan energi hijau di Singapura.</li></ul></li></ul>",
+        "edwin_khew_position": "Ketua, Asosiasi Energi Berkelanjutan Singapura (SEAS) <br /> Ketua, Pengembangan Koridor Hijau"
+    }
 }
