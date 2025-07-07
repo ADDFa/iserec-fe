@@ -11,6 +11,9 @@ i18n.use(HttpBackend) // Memuat file json berisi terjemahan
         debug: false, // untuk debuging
         interpolation: {
             escapeValue: false // react sudah melindungi dari xss
+        },
+        backend: {
+            loadPath: "/locales/{{lng}}/{{ns}}.json?v=1.0.3"
         }
     })
 
