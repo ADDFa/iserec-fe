@@ -12,6 +12,8 @@ i18n.use(HttpBackend) // Memuat file json berisi terjemahan
         interpolation: {
             escapeValue: false // react sudah melindungi dari xss
         },
+        supportedLngs: ["en-US", "id-ID"],
+        load: "currentOnly",
         backend: {
             loadPath: "/locales/{{lng}}/{{ns}}.json?v=1.0.3"
         }
