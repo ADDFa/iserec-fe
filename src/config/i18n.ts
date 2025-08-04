@@ -7,7 +7,7 @@ i18n.use(HttpBackend) // Memuat file json berisi terjemahan
     .use(LanguageDetector) // Mendeteksi bahasa pengguna
     .use(initReactI18next) // Integrasi dengan react
     .init({
-        fallbackLng: "en-EN", // bahasa default
+        fallbackLng: "en-US", // bahasa default
         debug: false, // untuk debuging
         interpolation: {
             escapeValue: false // react sudah melindungi dari xss
