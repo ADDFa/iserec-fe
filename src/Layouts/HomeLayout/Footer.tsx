@@ -28,7 +28,7 @@ const Footer = () => {
                                     target="_blank"
                                     className="text-light text-decoration-none"
                                 >
-                                    +62 803 021 011
+                                    +62 878 8731 6662
                                 </Link>
                             </Col>
                             <Col xs={2} className="text-center">
@@ -39,10 +39,10 @@ const Footer = () => {
                                     to="mailto:iserec@gmail.com"
                                     className="text-light text-decoration-none"
                                 >
-                                    iserec@gmail.com
+                                    admin@iserec.org
                                 </Link>
                             </Col>
-                            <Col xs={2} className="text-center">
+                            {/* <Col xs={2} className="text-center">
                                 <i className="bi bi-instagram"></i>
                             </Col>
                             <Col xs={10}>
@@ -77,7 +77,7 @@ const Footer = () => {
                                 >
                                     iserec
                                 </Link>
-                            </Col>
+                            </Col> */}
                         </Row>
                     </Col>
                     <Col>
