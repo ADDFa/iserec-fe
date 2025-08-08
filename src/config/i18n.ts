@@ -15,7 +15,7 @@ i18n.use(HttpBackend) // Memuat file json berisi terjemahan
         supportedLngs: ["en-US", "id-ID"],
         load: "currentOnly",
         backend: {
-            loadPath: "/locales/{{lng}}/{{ns}}.json?v=1.0.4"
+            loadPath: "/locales/{{lng}}/{{ns}}.json?v=1.0.5"
         }
     })
 

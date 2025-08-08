@@ -14,14 +14,14 @@ const News = () => {
         {
             name: "launching",
             title: t("news.news-1.title"),
-            img: mouWithCtis,
+            img: peresmian,
             date: t("news.news-1.date"),
             desc: t("news.news-1.desc")
         },
         {
             name: "mou",
             title: t("news.news-2.title"),
-            img: peresmian,
+            img: mouWithCtis,
             date: t("news.news-2.date"),
             desc: t("news.news-2.desc")
         }
@@ -49,7 +49,12 @@ const News = () => {
                                     <h5 className="mt-3 roboto-black">
                                         {title}
                                     </h5>
-                                    <p className="text-justify">{desc}</p>
+                                    <p
+                                        className="text-justify"
+                                        dangerouslySetInnerHTML={{
+                                            __html: desc
+                                        }}
+                                    ></p>
 
                                     <div className="d-flex gap-2 justify-content-end align-items-center">
                                         <span className="text-sm text-secondary">

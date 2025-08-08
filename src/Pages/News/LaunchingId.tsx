@@ -8,210 +8,191 @@ const Launching = () => {
 
     return (
         <Fragment>
-            <h2 className="roboto-black my-3 text-center">
+            <h3 className="roboto-black my-3 text-center">
                 {t("news.news-1.title")}
-            </h2>
+            </h3>
             <hr />
 
             <Col xs={12} lg={7} className="mx-auto">
                 <Image src={launching} rounded thumbnail className="w-100" />
             </Col>
 
-            <h4 className="roboto-black mt-5">PII DAN E20 (ENGINEERING 20)</h4>
-            <p className="text-justify">
-                E20 (Engineering 20) adalah usulan dari Persatuan Insinyur
-                Indonesia (PII) untuk menjadi kelompok yang terlibat dalam G20.
-                Hal ini merupakan salah satu langkah berani untuk mengangkat
-                peran insinyur dari sekadar Engineering menjadi Leader Engineers
-                yang mampu memberikan kontribusi efektif dalam menghadapi
-                tantangan ekonomi, lingkungan, dan kesehatan. Kami telah
-                menerima dukungan dari berbagai negara; India, China, Jepang,
-                Korea Selatan, Australia, AFEO, Amerika Serikat, Turki, Rusia,
-                Arab Saudi, Afrika Selatan. Saat ini, kami sedang dalam proses
-                untuk menjadi kelompok memiliki keterlibatan penuh dari G20.
-            </p>
+            <div className="container">
+                <h4 className="roboto-black mt-5">
+                    ISEREC: Tonggak Baru Riset Energi Surya Nasional
+                </h4>
+                <h6 className="fw-semibold">
+                    Peluncuran Resmi Indonesia Solar Energy Research Centre
+                    (ISEREC)
+                </h6>
+                <p className="text-justify mt-3">
+                    <strong className="fw-semibold">
+                        Jakarta, 2 Oktober 2024 – Indonesia Solar Energy
+                        Research Centre (ISEREC)
+                    </strong>{" "}
+                    resmi diluncurkan, menandai langkah penting dalam perjalanan
+                    Indonesia menuju transisi energi bersih. Acara peresmian
+                    berlangsung di Auditorium Kementerian Pekerjaan Umum dan
+                    Perumahan Rakyat (PUPR) dan dihadiri oleh berbagai pemangku
+                    kepentingan nasional dan internasional, termasuk{" "}
+                    <strong>Menteri PUPR Basuki Hadimuljono</strong>, yang
+                    secara langsung membuka acara.
+                </p>
+                <p className="text-justify">
+                    Pembentukan ISEREC merupakan inisiatif bersama antara{" "}
+                    <strong>
+                        Solar Energy Research Institute of Singapore (SERIS)
+                    </strong>{" "}
+                    dan <strong>Persatuan Insinyur Indonesia (PII)</strong>,
+                    dengan tujuan menempatkan Indonesia sebagai pusat unggulan
+                    riset dan pengembangan energi surya di kawasan Asia
+                    Tenggara.
+                </p>
+                <hr />
 
-            <p className="mb-0">
-                E20 dirancang sebagai kelompok yang terlibat di G20 dengan
-                karakteristik berikut:
-            </p>
-            <ol>
-                <li>
-                    Indonesia sebagai “inisiator” E20 saat Indonesia menjadi
-                    tuan rumah G20 pada tahun 2022.
-                </li>
-                <li>
-                    Inisiatif aktif dari Indonesia merupakan kontribusi untuk
-                    mengatasi tantangan global saat ini seperti perubahan iklim,
-                    transformasi digital, dan kesehatan.
-                </li>
-            </ol>
-            <p className="text-justify">
-                E20, tidak hanya retorika dan usaha pencitraan, akan berfungsi
-                sebagai platform kolaborasi yang menghasilkan hasil nyata,
-                seperti transisi energi hijau, penerapan teknologi digital di
-                berbagai sektor industri dengan cara yang praktis, dan fokus
-                pada produksi produk perawatan kesehatan yang efisien serta
-                hemat biaya.
-            </p>
-            <p className="text-justify">
-                E20 akan menjadi platform produktif G20 untuk memberikan dampak
-                global yang signifikan dan kontribusi positif dalam
-                menyelesaikan berbagai masalah serta tantangan yang dihadapi
-                ekonomi dan masyarakat.
-            </p>
-            <p className="text-justify">
-                Di bawah platform E20 dan semangat yang terbangun, Pusat
-                Penelitian Sel Surya Semikonduktor (Research Centre on Solar
-                Cell Semiconductor), hasil kolaborasi dengan SERIS (Solar Energy
-                Research Institute of Singapore), akan diresmikan pada 2 Oktober
-                2024. ISEREC juga bekerja sama dengan berbagai lembaga
-                penelitian dan universitas di Indonesia, seperti Badan Riset dan
-                Inovasi Nasional (BRIN), Universitas Indonesia (UI), Institut
-                Teknologi Bandung (ITB), Universitas Gajah Mada (UGM), Institut
-                Teknologi Sepuluh Nopember (ITS), dan banyak lagi untuk
-                membentuk jaringan kolaboratif.
-            </p>
-            <p className="text-justify">
-                Dalam platform kolaborasi antara Singapura dan Indonesia terkait
-                energi terbarukan, Solar Energy Research Institute of Singapore
-                (SERIS) di National University of Singapore (NUS) dan Persatuan
-                Insinyur Indonesia (PII) telah membentuk kolaborasi untuk
-                melakukan penelitian dan pengembangan teknologi photovoltaic
-                (PV) surya dengan melibatkan institusi lokal dan internasional,
-                perusahaan, serta organisasi non- pemerintah lainnya.
-            </p>
+                {/* --------------------------------------------------------------- */}
+                <h4 className="roboto-black mt-5">
+                    Mendorong Masa Depan Energi Bersih Indonesia
+                </h4>
+                <p className="text-justify">
+                    ISEREC dibentuk dengan visi menjadi pusat keunggulan
+                    nasional dalam bidang energi surya. Lembaga ini bertujuan
+                    mempercepat transisi energi terbarukan di Indonesia melalui:
+                </p>
 
-            <h4 className="roboto-black mt-5">LATAR BELAKANG ISEREC</h4>
-            <p className="text-justify">
-                <em>Sustainable Energy Association of Singapore</em> (SEAS) yang
-                mewakili Konsorsium yang terdiri dari EDPR Sunseap, Gurin
-                Energy, dan Keppel Infrastructure Holding (Anggota Konsorsium)
-                telah mengusulkan rencana pengembangan Riau Green Economic
-                Corridor dalam surat-surat sejak 9 November 2022;
-            </p>
-            <p className="text-justify">
-                Berdasarkan hal tersebut, SEAS, Anggota Konsorsium, dan
-                Kementerian Koordinator Bidang Kemaritiman dan Investasi
-                (Kemenko Marves) telah mengadakan serangkaian pertemuan yang
-                juga dihadiri oleh <em>Energy Market Authority</em> (EMA)
-                Singapur, dan salah satu komitmen Konsorsium adalah mendukung
-                program Penelitian dan Pengembangan teknologi{" "}
-                <em>photovoltaic</em> (PV) surya (dari sel hingga modul dan
-                sistem) sebagai bagian dari komitmen End-to-End;
-            </p>
-            <p className="text-justify">
-                SEAS, Anggota Konsorsium, Kemenko Marves, dan EMA telah sepakat
-                bahwa Solar Energy Research Institute of Singapore (SERIS) di
-                National University of Singapore (NUS) dan Persatuan Insinyur
-                Indonesia (PII) akan bekerja sama untuk mewujudkan komitmen
-                penelitian dan pengembangan yang disebutkan di atas dengan
-                tujuan menyelenggarakan penelitian dan pengembangan kelas dunia
-                pada teknologi <em>photovoltaic</em> (PV) surya yang melibatkan
-                institusi lokal dan internasional, perusahaan, serta organisasi
-                non-pemerintah lainnya.
-            </p>
-            <p className="text-justify">
-                ISEREC akan bekerja sama dengan berbagai lembaga penelitian dan
-                universitas di Indonesia seperti Badan Riset dan Inovasi
-                Nasional (BRIN), Universitas Indonesia (UI), Institut Teknologi
-                Bandung (ITB), Universitas Gajah Mada (UGM), Institut Teknologi
-                Sepuluh Nopember (ITS), Institut Teknologi Indonesia (ITI), dan
-                lainnya untuk membentuk jaringan kolaboratif.
-            </p>
+                <ul>
+                    <li className="mb-2">
+                        <strong>Riset dan pengembangan terapan</strong> di
+                        sepanjang rantai nilai energi surya
+                    </li>
+                    <li className="mb-2">
+                        <strong>Kolaborasi internasional</strong> untuk
+                        menghadirkan keahlian global ke konteks lokal
+                    </li>
+                    <li className="mb-2">
+                        <strong>Pengembangan kapasitas</strong>, pelatihan, dan
+                        pendidikan untuk tenaga kerja masa depan Indonesia
+                    </li>
+                    <li className="mb-2">
+                        <strong>Inovasi teknologi</strong>, dengan fokus pada
+                        solusi energi surya untuk wilayah urban dan rural
+                    </li>
+                    <li className="mb-2">
+                        <strong>Penyusunan kebijakan dan standar</strong>, yang
+                        sejalan dengan praktik internasional
+                    </li>
+                </ul>
+                <p className="text-justify">
+                    Kelima pilar ini dirancang untuk membangun ekosistem energi
+                    surya yang berkelanjutan dalam jangka panjang, mendukung
+                    komitmen Indonesia dalam menurunkan emisi karbon dan
+                    memperluas penggunaan energi bersih.
+                </p>
+                <hr />
 
-            <h4 className="roboto-black mt-5">TUJUAN ISEREC</h4>
-            <p className="text-justify">
-                Berikut adalah daftar tujuan dari Indonesia Solar Energy
-                Research Centre (ISEREC) sesuai dengan MOU tertanggal 16 Agustus
-                2023:
-            </p>
-            <ol className="text-justify">
-                <li>
-                    <span>Pendidikan</span>
+                {/* --------------------------------------------------------------- */}
+                <h4 className="roboto-black mt-5">
+                    Sorotan dari Acara Peluncuran
+                </h4>
+                <p className="text-justify">
+                    Dalam sambutannya,{" "}
+                    <strong>Menteri Basuki Hadimuljono</strong> menyampaikan
+                    dukungan penuh terhadap misi ISEREC. Beliau menegaskan bahwa
+                    energi surya akan menjadi komponen penting dalam pembangunan
+                    infrastruktur hijau dan perencanaan perkotaan masa depan
+                    Indonesia. Menteri Basuki juga menyoroti pentingnya
+                    pengambilan keputusan berbasis riset serta perlunya
+                    peningkatan kapasitas sumber daya manusia di sektor energi
+                    terbarukan.
+                </p>
+                <p className="text-justify">
+                    Acara ini juga menampilkan kemitraan strategis antara{" "}
+                    <strong>PII</strong> dan <strong>SERIS</strong>, yang akan
+                    memastikan transfer pengetahuan, akses ke jejaring
+                    internasional, dan penerapan metodologi riset yang kuat.
+                    Bersama-sama, kedua institusi ini akan memimpin kegiatan
+                    riset ISEREC melalui enam kelompok kerja (working group)
+                    berikut:
+                </p>
+                <ol className="roboto-black">
+                    <li className="mb-2">Teknologi Panel Surya</li>
+                    <li className="mb-2">Manufaktur</li>
+                    <li className="mb-2">
+                        Implementasi PV di Kawasan Perkotaan
+                    </li>
+                    <li className="mb-2">
+                        Sistem Pembangkit Listrik Tenaga Surya (PLTS)
+                    </li>
+                    <li className="mb-2">Pengembangan SDM</li>
+                    <li className="mb-2">Standarisasi</li>
+                </ol>
+                <p className="text-justify">
+                    Kelompok-kelompok kerja ini akan menjadi wadah kolaboratif
+                    bagi para pakar, akademisi, insinyur, dan pelaku industri
+                    untuk berkontribusi dalam pengembangan solusi energi surya
+                    di Indonesia.
+                </p>
+                <hr />
 
-                    <ol type="a">
-                        <li>
-                            Bekerja sama dengan berbagai Universitas dan
-                            Institusi global;
-                        </li>
-                        <li>
-                            Mendukung mahasiswa PhD dan pascadoktoral dalam
-                            teknologi sel surya;
-                        </li>
-                        <li>Pertukaran mahasiswa untuk belajar;</li>
-                        <li>
-                            Pertukaran anggota fakultas untuk belajar,
-                            penelitian, dan partisipasi dalam program
-                            pendidikan;
-                        </li>
-                        <li>
-                            Pertukaran akademisi untuk ceramah, diskusi, dan
-                            berbagi pengalaman;
-                        </li>
-                        <li>
-                            Pertukaran publikasi dalam bidang yang menjadi minat
-                            kedua universitas;
-                        </li>
-                        <li>Pengembangan profesional kolaboratif;</li>
-                        <li>Program pendidikan bersama; dan</li>
-                        <li>Kegiatan lainnya yang disepakati bersama.</li>
-                    </ol>
-                </li>
-                <li>
-                    <span>Teknologi</span>
+                <h4 className="roboto-black mt-5">
+                    Dampak dan Signifikansi Nasional
+                </h4>
+                <p className="text-justify">
+                    ISEREC memiliki peran penting dalam pencapaian target energi
+                    terbarukan nasional, termasuk upaya mencapai{" "}
+                    <strong>
+                        23% bauran energi dari sumber terbarukan pada tahun 2025
+                    </strong>
+                    . Melalui riset, inovasi, dan kolaborasi inklusif, ISEREC
+                    akan:
+                </p>
+                <ul>
+                    <li className="mb-2">
+                        <strong>Mendorong inovasi</strong> dalam teknologi
+                        fotovoltaik (PV) dan integrasi sistem
+                    </li>
+                    <li className="mb-2">
+                        <strong>Menguatkan industri manufaktur lokal</strong>{" "}
+                        untuk mengurangi ketergantungan pada impor
+                    </li>
+                    <li className="mb-2">
+                        <strong>Meningkatkan akses energi</strong> terutama di
+                        wilayah terpencil dan tertinggal
+                    </li>
+                    <li className="mb-2">
+                        <strong>Memberikan masukan berbasis data</strong> untuk
+                        kebijakan energi nasional
+                    </li>
+                    <li className="mb-2">
+                        <strong>Membangun talenta muda</strong> melalui
+                        pendidikan dan pelatihan di bidang energi surya
+                    </li>
+                </ul>
+                <p className="text-justify">
+                    Dengan pendekatan multidisipliner, ISEREC berada dalam
+                    posisi strategis untuk membentuk masa depan Indonesia yang
+                    rendah karbon dan tangguh secara energi.
+                </p>
+                <hr />
 
-                    <ol type="a">
-                        <li>
-                            Mengembangkan tim Indonesia yang sangat terampil
-                            dalam teknologi fotovoltaik surya;
-                        </li>
-                        <li>
-                            Mendukung perusahaan Indonesia dalam mengembangkan
-                            kemampuan manufaktur.
-                        </li>
-                    </ol>
-                </li>
-                <li>
-                    <span>Advisor</span>
-
-                    <ol type="a">
-                        <li>
-                            Memberikan dukungan konsultasi kepada perusahaan dan
-                            institusi berdasarkan penelitian dan pengembangan di
-                            atas.
-                        </li>
-                    </ol>
-                </li>
-            </ol>
-
-            <h4 className="roboto-black mt-5">Direksi</h4>
-            <p>Terdapat dua Co-Direksi ISEREC:</p>
-            <p className="ps-4">
-                Prof. Michael Goutama
-                <br />
-                Wakil Ketua Komite Hubungan Internasional, PII
-            </p>
-            <p>dan</p>
-            <p className="ps-4">
-                Dr. Thomas Reindl
-                <br />
-                Deputy Chief Executive Officer, SERIS, NUS
-            </p>
-            <blockquote className="text-justify fst-italic text-secondary fs-5">
-                "Kami sangat antusias menjadi bagian dari proyek Green Corridor
-                dan pusat penelitian sel surya semikonduktor pertama. Dengan
-                peluncuran ISEREC, Indonesia memulai perjalanan ekosistem
-                semikonduktornya. Peresmian ini membuktikan kekuatan kolaborasi
-                jaringan dan efektivitas inovasi nyata yang didasarkan pada
-                model digital twin. Keberhasilan ISEREC didasarkan pada
-                keyakinan bahwa ini akan menghasilkan nilai yang substansial
-                untuk mendorong upaya pengembangan Sumber Daya Manusia Indonesia
-                melalui penciptaan ekosistem industri berbasis tindakan,
-                lapangan kerja yang terampil, dan kumpulan pengetahuan yang
-                relevan serta kompetitif."
-                <footer>— Dr. Ir. Danis Sumadilaga, Ketua PII</footer>
-            </blockquote>
+                <h6 className="roboto-black mt-5">
+                    Menuju Kolaborasi untuk Masa Depan Berkelanjutan
+                </h6>
+                <p className="text-justify">
+                    Peluncuran ISEREC bukan sekadar pembukaan lembaga baru,
+                    tetapi juga simbol komitmen Indonesia untuk menjadi pemain
+                    utama dalam riset energi surya di tingkat global. Melalui
+                    sinergi antara kekuatan institusi lokal dan keahlian
+                    internasional, ISEREC siap memberikan dampak
+                    transformasional, baik untuk Indonesia maupun komunitas
+                    global.
+                </p>
+                <p className="text-justify">
+                    Ikuti terus kabar terbaru dari program riset, kolaborasi,
+                    dan peluang keterlibatan ISEREC dalam membentuk masa depan
+                    energi surya Indonesia.
+                </p>
+            </div>
         </Fragment>
     )
 }

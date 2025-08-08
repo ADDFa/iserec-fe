@@ -17,12 +17,12 @@
     },
     "news": {
         "news-1": {
-            "title": "The Launching Of Iserec",
+            "title": "Official Launch of the Indonesia Solar Energy Research Centre",
             "date": "2024 Oct 02",
-            "desc": "E20  (Engineering 20) is a proposal by Indonesia Institution of Engineers to be a engagement group of G20. It is a bold agenda to rapture Engineers from Engineering to become Leader Engineers who shall contribute in an effective way to deal with economic, environmental and health care challenges and issues."
+            "desc": "<strong className='fw-semibold'>Jakarta, 2 October 2024 – The Indonesia Solar Energy Research Centre (ISEREC)</strong> has been officially launched, marking a significant milestone in the country’s clean energy journey. The inauguration was held at the Ministry of Public Works and Housing (PUPR) and attended by key national and international stakeholders, including <strong>Minister Basuki Hadimuljono</strong>, who formally opened the event."
         },
         "news-2": {
-            "title": "The Sign of MoU CTIS with PII",
+            "title": "The Signing of the MoU between CTIS and PII",
             "date": "Okt 02 2024",
             "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore fugit et nesciunt tenetur, iste, nemo sunt soluta odio dolorum labore necessitatibus adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore fugit et nesciunt tenetur, iste, nemo sunt soluta odio dolorum labore necessitatibus adipisci."
         }
@@ -73,12 +73,12 @@
     },
     "working-group": "Working Groups",
     "working-group-desc": "The Indonesian Solar Energy Research Centre (ISEREC) drives innovation through its six dedicated Working Groups (WGs). Each WG focuses on a critical area in the solar energy value chain — from technology development and manufacturing to human capital and standardization. These groups bring together experts, researchers, and industry stakeholders to collaborate, conduct studies, and recommend solutions to advance Indonesia’s solar energy ecosystem.",
-    "working-group-1": "WG1 – Solar Panel Technology",
-    "working-group-2": "WG2 – Manufacturing",
-    "working-group-3": "WG3 – Urban PV Implementation",
-    "working-group-4": "WG4 – PLTS System",
-    "working-group-5": "WG5 – Human Development",
-    "working-group-6": "WG6 – Standardization",
+    "working-group-1": "WG1 --> Solar Panel Technology",
+    "working-group-2": "WG2 --> Manufacturing",
+    "working-group-3": "WG3 --> Urban PV Implementation",
+    "working-group-4": "WG4 --> PLTS System",
+    "working-group-5": "WG5 --> Human Development",
+    "working-group-6": "WG6 --> Standardization",
     "working-group-intro": "ISEREC's 6 Working Groups:",
     "contact": "Contact",
     "documentation": "Documentary",

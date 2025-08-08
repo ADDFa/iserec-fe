@@ -17,12 +17,12 @@
     },
     "news": {
         "news-1": {
-            "title": "The Launching Of Iserec",
-            "date": "02 Okt 2024",
-            "desc": "E20 (Engineering 20) adalah usulan dari Persatuan Insinyur Indonesia (PII) untuk menjadi kelompok yang terlibat dalam G20. Hal ini merupakan salah satu langkah berani untuk mengangkat peran insinyur dari sekadar Engineering menjadi Leader Engineers yang mampu memberikan kontribusi efektif dalam menghadapi tantangan ekonomi, lingkungan, dan kesehatan."
+            "title": "Official Launch of the Indonesia Solar Energy Research Centre",
+            "date": "2 Okt 2024",
+            "desc": "<strong className='fw-semibold'> Jakarta, 2 Oktober 2024 – Indonesia Solar Energy Research Centre (ISEREC)</strong> resmi diluncurkan, menandai langkah penting dalam perjalanan Indonesia menuju transisi energi bersih. Acara peresmian berlangsung di Auditorium Kementerian Pekerjaan Umum dan Perumahan Rakyat (PUPR) dan dihadiri oleh berbagai pemangku kepentingan nasional dan internasional, termasuk <strong>Menteri PUPR Basuki Hadimuljono</strong>, yang secara langsung membuka acara."
         },
         "news-2": {
-            "title": "The Sign of MoU CTIS with PII",
+            "title": "The Signing of the MoU between CTIS and PII",
             "date": "02 Okt 2024",
             "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore fugit et nesciunt tenetur, iste, nemo sunt soluta odio dolorum labore necessitatibus adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam inventore fugit et nesciunt tenetur, iste, nemo sunt soluta odio dolorum labore necessitatibus adipisci."
         }
@@ -74,12 +74,12 @@
     },
     "working-group": "Kelompok Kerja",
     "working-group-desc": "Pusat Penelitian Energi Surya Indonesia (ISEREC) mendorong inovasi melalui enam Kelompok Kerja (WG) yang berdedikasi. Setiap WG berfokus pada area penting dalam rantai nilai energi surya — mulai dari pengembangan dan manufaktur teknologi hingga sumber daya manusia dan standardisasi. Kelompok-kelompok ini mempertemukan para ahli, peneliti, dan pemangku kepentingan industri untuk berkolaborasi, melakukan studi, dan merekomendasikan solusi untuk memajukan ekosistem energi surya Indonesia.",
-    "working-group-1": "WG1 - Teknologi Panel Surya",
-    "working-group-2": "WG2 - Manufaktur",
-    "working-group-3": "WG3 - Implementasi PLTS Perkotaan",
-    "working-group-4": "WG4 - Sistem PLTS (Pembangkit Listrik Tenaga Surya)",
-    "working-group-5": "WG5 - Pengembangan Manusia",
-    "working-group-6": "WG6 - Standardisasi",
+    "working-group-1": "WG1 --> Teknologi Panel Surya",
+    "working-group-2": "WG2 --> Manufaktur",
+    "working-group-3": "WG3 --> Implementasi PLTS Perkotaan",
+    "working-group-4": "WG4 --> Sistem PLTS (Pembangkit Listrik Tenaga Surya)",
+    "working-group-5": "WG5 --> Pengembangan Manusia",
+    "working-group-6": "WG6 --> Standardisasi",
     "working-group-intro": "6 Kelompok Kerja ISEREC:",
     "contact": "Hubungi Kami",
     "documentation": "Dokumentasi",
